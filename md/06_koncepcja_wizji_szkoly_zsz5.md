@@ -9,37 +9,37 @@ Uwaga źródłowa: jako podstawowe publiczne źródło oferty ZSZ5 i listy kieru
 
 ## Teza dokumentu
 
-ZSZ5 powinien rozwijać się jako szkoła, która przygotowuje ucznia do zawodu, dalszego rozwoju i samodzielnego życia. Nie przez obniżanie wymagań, lecz przez mądrze zorganizowaną drogę dojścia do wysokiego standardu: praktykę zawodową, jasne zasady, informację zwrotną, relację z dorosłym, wsparcie specjalistyczne, rozwój kompetencji fundamentalnych i uczenie odpowiedzialności.
+Ta koncepcja nie jest kolejnym wezwaniem, żeby nauczyciel „bardziej się postarał”. ZSZ5 powinien rozwijać się jako szkoła, która przygotowuje ucznia do zawodu, dalszego rozwoju i samodzielnego życia, ale równocześnie chroni sens pracy nauczyciela. Nie przez obniżanie wymagań, lecz przez prostą i wspólną drogę dojścia do standardu: praktykę zawodową, jasne zasady, krótsze etapy pracy, informację zwrotną, wsparcie specjalistyczne, rozwój kompetencji podstawowych i uczenie odpowiedzialności.
 
 Najkrótsza formuła wizji:
 
-> ZSZ5 przygotowuje ucznia do fachu, pracy i dorosłości: tak, aby potrafił działać odpowiedzialnie, uczyć się dalej, współpracować, korzystać z technologii i przyjmować wymagania realnego świata.
+> ZSZ5 nie rezygnuje ze standardu, ale porządkuje drogę dojścia: jasne wymagania, praktyka u pracodawców, wsparcie z granicami, konkretna informacja zwrotna i wspólna odpowiedzialność za obecność, pracę oraz rozwój ucznia.
 
 ## A. Diagnoza dzisiejszej młodzieży, z którą pracujemy
 
-### 1. Uczeń nie jest „gorszy”; funkcjonuje w trudniejszym środowisku uwagi
+### 1. Uczeń nie jest „gorszy”; szkoła pracuje w trudniejszych warunkach uwagi
 
-Współczesny uczeń dorasta w środowisku stałych bodźców, krótkich komunikatów, natychmiastowej reakcji i cyfrowej konkurencji o uwagę. Badania OECD dotyczące urządzeń cyfrowych pokazują negatywną korelację między rekreacyjnym używaniem urządzeń w szkole a wynikami edukacyjnymi. Z perspektywy szkoły zawodowej to nie jest tylko problem „telefonu na lekcji”. Koncentracja jest elementem kultury pracy, bezpieczeństwa, jakości usługi i odpowiedzialności wobec klienta, pracodawcy oraz zespołu.
+Współczesny uczeń dorasta w środowisku stałych bodźców, krótkich komunikatów, natychmiastowej reakcji i cyfrowej konkurencji o uwagę. Dla nauczyciela oznacza to codzienną pracę w warunkach częstszego rozproszenia, krótszej koncentracji i mniejszej gotowości ucznia do dłuższego wysiłku. Badania OECD dotyczące urządzeń cyfrowych pokazują negatywną korelację między rekreacyjnym używaniem urządzeń w szkole a wynikami edukacyjnymi. Z perspektywy szkoły zawodowej to nie jest tylko problem „telefonu na lekcji”. Koncentracja jest elementem kultury pracy, bezpieczeństwa, jakości usługi i odpowiedzialności wobec klienta, pracodawcy oraz zespołu.
 
-Wniosek dla ZSZ5: szkoła powinna uczyć higieny cyfrowej i koncentracji tak samo świadomie, jak uczy zasad BHP. Telefon, AI i internet nie są wrogiem, ale mają być narzędziem pracy, a nie stałym źródłem rozproszenia.
+Wniosek dla ZSZ5: szkoła potrzebuje wspólnych zasad higieny cyfrowej i koncentracji, żeby nie zostawiać pojedynczego nauczyciela z samotną walką o uwagę klasy. Telefon, AI i internet nie są wrogiem, ale mają być narzędziem pracy, a nie stałym źródłem rozproszenia.
 
 ### 2. Część uczniów ma słabsze poczucie sensu szkoły
 
 Materiały Reformy 26, odwołując się do badań międzynarodowych, wskazują, że wielu uczniów nie czuje, aby szkoła dobrze przygotowywała ich do dorosłego życia. To szczególnie ważne w szkole zawodowej, bo uczeń często oczekuje konkretu: zawodu, wynagrodzenia, praktyki, realnej użyteczności wiedzy. Jeżeli nie widzi sensu przedmiotów ogólnych, zadań i wymagań, łatwiej wycofuje uwagę i wysiłek.
 
-Wniosek dla ZSZ5: szkoła musi częściej pokazywać, po co uczeń się uczy. Nie wszystko da się sprowadzić do natychmiastowej użyteczności, ale każdy przedmiot powinien umieć wskazać związek z zawodem, dorosłością, egzaminem, komunikacją, finansami, zdrowiem, prawem pracy, obywatelskością albo bezpieczeństwem.
+Wniosek dla ZSZ5: szkoła powinna częściej pokazywać, po co uczeń się uczy, ale bez udawania, że każdy temat musi być natychmiast „praktyczny”. Wystarczy częściej budować widoczny most między treścią szkolną a zawodem, dorosłością, egzaminem, komunikacją, finansami, zdrowiem, prawem pracy, obywatelskością albo bezpieczeństwem. To pomaga także nauczycielowi, bo zmniejsza liczbę rozmów o tym, „po co nam to”.
 
 ### 3. Motywacja ucznia wymaga struktury, nie samej zachęty
 
 Teoria autodeterminacji, badania nad poczuciem skuteczności i badania nad informacją zwrotną prowadzą do wspólnego wniosku: uczeń angażuje się bardziej, gdy rozumie cel, ma poczucie kompetencji, doświadcza relacji, widzi postęp i zna następny krok. Sama pochwała albo hasło „dasz radę” nie wystarcza.
 
-Wniosek dla ZSZ5: nauczyciel powinien prowadzić ucznia przez jasny standard, krótką informację zwrotną, możliwość poprawy i wymaganie dokończenia pracy. To nie jest pobłażliwość. To dydaktyczna organizacja wysiłku.
+Wniosek dla ZSZ5: nauczyciel nie powinien dostawać kolejnej misji motywowania każdego ucznia od zera. Potrzebuje raczej prostych, powtarzalnych narzędzi: jasnego standardu, krótkiej informacji zwrotnej, możliwości poprawy i wymagania dokończenia pracy. To nie jest pobłażliwość. To organizacja wysiłku w warunkach, w których spontaniczna motywacja ucznia bywa słaba.
 
 ### 4. Dobrostan i przynależność są warunkiem przyjęcia wymagań
 
-W koncepcji szkoły trzeba uniknąć dwóch skrajności. Pierwsza to szkoła, która mówi: „uczeń ma się dostosować, a jeśli nie potrafi, to jego problem”. Druga to szkoła, która tak szeroko rozumie wsparcie, że przestaje wymagać dorosłych zachowań. ZSZ5 potrzebuje trzeciej drogi: widzimy trudności ucznia, ale prowadzimy go do odpowiedzialności.
+W koncepcji szkoły trzeba uniknąć dwóch skrajności. Pierwsza to szkoła, która mówi: „uczeń ma się dostosować, a jeśli nie potrafi, to jego problem”. Druga to szkoła, która tak szeroko rozumie wsparcie, że przestaje wymagać dorosłych zachowań i zostawia nauczyciela bez narzędzi. ZSZ5 potrzebuje trzeciej drogi: widzimy trudności ucznia, ale prowadzimy go do odpowiedzialności.
 
-Wniosek dla ZSZ5: relacja, wsparcie psychologiczno-pedagogiczne i bezpieczeństwo mają służyć uczeniu, frekwencji, naprawianiu błędów, odpowiedzialności i wejściu w dorosłość.
+Wniosek dla ZSZ5: relacja, wsparcie psychologiczno-pedagogiczne i bezpieczeństwo mają służyć uczeniu, frekwencji, naprawianiu błędów, odpowiedzialności i wejściu w dorosłość. Nie mogą oznaczać, że nauczyciel przejmuje odpowiedzialność za każdą decyzję ucznia.
 
 ### 5. Rynek pracy wymaga fachu oraz kompetencji przekrojowych
 
@@ -91,7 +91,7 @@ Branżowa Szkoła I stopnia:
 - kelner,
 - elektryk.
 
-Uwaga audytowa: aktualna liczba oddziałów, uczniów i realnie uruchamianych klas powinna zostać potwierdzona w arkuszu organizacyjnym i danych rekrutacyjnych. `szkolamistrzow.info` jest źródłem oferty publicznej, natomiast dane organizacyjne szkoły muszą pochodzić z dokumentacji wewnętrznej. Dane z koncepcji z 2022 r. są wartościowe jako historia rozwoju szkoły, ale nie powinny być podawane jako stan obecny bez aktualizacji.
+Uwaga audytowa: aktualna liczba oddziałów, uczniów i realnie uruchamianych klas wymaga potwierdzenia w arkuszu organizacyjnym i danych rekrutacyjnych. `szkolamistrzow.info` jest źródłem oferty publicznej, natomiast dane organizacyjne szkoły muszą pochodzić z dokumentacji wewnętrznej. Dane z koncepcji z 2022 r. są wartościowe jako historia rozwoju szkoły, ale nie powinny być podawane jako stan obecny bez aktualizacji.
 
 ### 3. Model dualny i współpraca z pracodawcami
 
@@ -103,7 +103,7 @@ To jest przewaga ZSZ5: szkoła nie musi sztucznie „symulować” dorosłości.
 
 Publiczna strona ZSZ5 wskazuje dostępność pedagoga szkolnego, psychologa szkolnego, pedagoga specjalnego oraz konsultanta do spraw uzależnień. To ważny element modelu szkoły, ponieważ uczeń zawodowy często funkcjonuje równolegle w kilku światach: szkoły, praktyki, rodziny, grupy rówieśniczej i rynku pracy.
 
-Wsparcie nie powinno być opisane jako osobny dodatek do dydaktyki. W koncepcji powinno tworzyć jeden system z wymaganiami, frekwencją, praktykami, doradztwem zawodowym i pracą wychowawczą.
+Wsparcie nie powinno być opisane jako osobny dodatek do dydaktyki ani jako coś, co nauczyciel ma załatwić sam. W koncepcji powinno tworzyć jeden system z wymaganiami, frekwencją, praktykami, doradztwem zawodowym i pracą wychowawczą.
 
 ### 5. Projekty, konkursy i reputacja
 
@@ -117,7 +117,7 @@ Szkoła komunikuje udział w projektach i wydarzeniach, w tym w działaniach zwi
 UCZEŃ ZSZ5
   -> widzi sens nauki
   -> ćwiczy koncentrację i samoregulację
-  -> rozwija kompetencje fundamentalne
+  -> rozwija kompetencje podstawowe
   -> uczy się przez praktykę i realne zadania
   -> otrzymuje informację zwrotną
   -> buduje sprawczość i odpowiedzialność
@@ -136,9 +136,9 @@ Działania:
 - zadania zawodowe łączące przedmioty ogólne i praktykę,
 - portfolio ucznia: prace, projekty, opinie, osiągnięcia, refleksja nad postępem.
 
-### Filar 2. Kompetencje fundamentalne jako warunek zawodu
+### Filar 2. Kompetencje podstawowe jako warunek zawodu
 
-Czytanie ze zrozumieniem, matematyka praktyczna, komunikacja i kompetencje cyfrowe powinny być traktowane jako narzędzia pracy zawodowej. Uczeń fryzjer, kucharz, sprzedawca, elektryk, handlowiec czy stolarz potrzebuje rozumieć instrukcje, proporcje, ceny, terminy, dokumenty, komunikaty, reklamację, opis usługi i informacje z internetu.
+Czytanie ze zrozumieniem, matematyka praktyczna, komunikacja i kompetencje cyfrowe są narzędziami pracy zawodowej. Uczeń fryzjer, kucharz, sprzedawca, elektryk, handlowiec czy stolarz potrzebuje rozumieć instrukcje, proporcje, ceny, terminy, dokumenty, komunikaty, reklamację, opis usługi i informacje z internetu.
 
 Działania:
 
@@ -149,7 +149,7 @@ Działania:
 
 ### Filar 3. Koncentracja i samoregulacja
 
-Uwaga jest kompetencją do ćwiczenia, a nie tylko cechą charakteru. ZSZ5 powinien rozwijać szkolną kulturę pracy skupionej: krótkie bloki działania, jasny cel, ograniczenie dystraktorów, konkretne instrukcje i domykanie zadań.
+Uwaga jest kompetencją do ćwiczenia, a nie tylko cechą charakteru. ZSZ5 powinien rozwijać szkolną kulturę pracy skupionej: krótkie bloki działania, jasny cel, ograniczenie dystraktorów, konkretne instrukcje i domykanie zadań. To ma być wspólna organizacja pracy, a nie prywatny styl pojedynczego nauczyciela.
 
 Działania:
 
@@ -160,7 +160,7 @@ Działania:
 
 ### Filar 4. Informacja zwrotna i wymagania
 
-Uczeń powinien wiedzieć, czego się od niego wymaga, gdzie jest teraz i jaki ma wykonać następny krok. Informacja zwrotna ma prowadzić do poprawy pracy, nie tylko do oceny.
+Uczeń powinien wiedzieć, czego się od niego wymaga, gdzie jest teraz i jaki ma wykonać następny krok. Informacja zwrotna ma prowadzić do poprawy pracy, nie tylko do oceny. Nie musi oznaczać długich komentarzy do wszystkiego; często wystarczy krótka korekta i jedno konkretne zadanie do poprawy.
 
 Działania:
 
@@ -171,7 +171,7 @@ Działania:
 
 ### Filar 5. Relacja, bezpieczeństwo i odpowiedzialność
 
-Nauczyciel nie jest terapeutą, ale jest dorosłym, który zna ucznia, stawia granice i prowadzi do standardu. Relacja ma pomagać uczniowi przyjąć wymagania, nie omijać je.
+Nauczyciel nie jest terapeutą. Jest dorosłym, który prowadzi ucznia do standardu, stawia granice i nie zostaje sam z sytuacjami, które wymagają wsparcia wychowawcy, specjalisty albo pracodawcy. Relacja ma pomagać uczniowi przyjąć wymagania, nie omijać je.
 
 Działania:
 
@@ -182,7 +182,7 @@ Działania:
 
 ### Filar 6. Dorosłość: praca, finanse, prawo, zdrowie, obywatelskość
 
-ZSZ5 powinien wprost uczyć elementów dorosłego życia. Nie jako dodatkowego „programu pogadanek”, ale przez konkretne sytuacje i zadania.
+ZSZ5 powinien wprost uczyć elementów dorosłego życia. Nie jako dodatkowego „programu pogadanek”, który obciąża nauczycieli, ale przez konkretne sytuacje i zadania.
 
 Obszary:
 
@@ -197,7 +197,7 @@ Obszary:
 
 ### Filar 7. Szkoła ucząca się na danych
 
-Koncepcja powinna być sprawdzana. Nie wystarczy zapisać cele; trzeba zobaczyć, czy działania zmieniają frekwencję, wyniki, zaangażowanie, jakość praktyk i poczucie przygotowania do dorosłości.
+Koncepcja powinna być sprawdzana, ale nie przez dokładanie biurokracji. Chodzi o proste pytanie: czy działania szkoły poprawiają frekwencję, wyniki, zaangażowanie, jakość praktyk i poczucie przygotowania do dorosłości, czy tylko tworzą kolejne dokumenty.
 
 Proponowane źródła danych:
 
@@ -215,33 +215,33 @@ Proponowane źródła danych:
 
 ### Najpierw: obowiązki wynikające z przepisów
 
-Cel szkoły nie powinien być opisywany tak, jakby prawo było tylko tłem. W przypadku publicznej szkoły zawodowej przepisy wyznaczają konkretny zakres odpowiedzialności, który trzeba nazwać wprost. Dopiero na nim można budować własną filozofię pracy ZSZ5.
+Cel szkoły nie powinien być opisywany tak, jakby prawo było tylko tłem. W przypadku publicznej szkoły zawodowej przepisy wyznaczają konkretny zakres odpowiedzialności, który trzeba nazwać wprost. To ważne również dla nauczyciela: wiele codziennych zadań nie jest prywatną dobrą wolą, ale częścią odpowiedzialności szkoły jako instytucji.
 
-Po pierwsze, szkoła ma zapewniać uczniowi kształcenie, wychowanie i opiekę odpowiednie do wieku oraz rozwoju. Prawo oświatowe wskazuje również wspomaganie wychowawczej roli rodziny, wspieranie rozwoju ucznia ku dojrzałości fizycznej, emocjonalnej, intelektualnej, duchowej i społecznej oraz działania profilaktyczne. Oznacza to, że szkoła nie odpowiada wyłącznie za lekcje i egzaminy, lecz także za tworzenie warunków rozwoju i za pracę wychowawczo-profilaktyczną.
+Po pierwsze, szkoła ma zapewniać uczniowi kształcenie, wychowanie i opiekę odpowiednie do wieku oraz rozwoju. Prawo oświatowe wskazuje również wspomaganie wychowawczej roli rodziny, wspieranie rozwoju ucznia ku dojrzałości fizycznej, emocjonalnej, intelektualnej, duchowej i społecznej oraz działania profilaktyczne. Oznacza to, że wychowanie i profilaktyka nie są prywatnym dodatkiem do lekcji, lecz zadaniem całej szkoły.
 
-Po drugie, szkoła ma dostosowywać treści, metody i organizację nauczania do możliwości psychofizycznych uczniów oraz zapewniać możliwość korzystania z pomocy psychologiczno-pedagogicznej i specjalnych form pracy dydaktycznej. W praktyce ZSZ5 oznacza to systemowe rozpoznawanie potrzeb uczniów, pracę specjalistów, ale także codzienne decyzje nauczycieli dotyczące sposobu prowadzenia lekcji, instrukcji, informacji zwrotnej, wymagań i wsparcia.
+Po drugie, szkoła ma dostosowywać treści, metody i organizację nauczania do możliwości psychofizycznych uczniów oraz zapewniać możliwość korzystania z pomocy psychologiczno-pedagogicznej i specjalnych form pracy dydaktycznej. W praktyce ZSZ5 oznacza to systemowe rozpoznawanie potrzeb uczniów, pracę specjalistów i wspólne ustalenia, aby każdy nauczyciel nie wymyślał rozwiązań dla każdej trudności osobno.
 
 Po trzecie, szkoła ma zapewniać bezpieczne i higieniczne warunki nauki, wychowania i opieki. W szkole zawodowej ten obowiązek obejmuje nie tylko ogólne bezpieczeństwo w budynku, lecz także kulturę BHP, przygotowanie do odpowiedzialnej pracy z narzędziami, reagowanie na zagrożenia oraz przenoszenie zasad bezpieczeństwa na praktyczną naukę zawodu.
 
 Po czwarte, szkoła zawodowa ma realizować kształcenie ogólne i zawodowe zgodnie z podstawami programowymi, ramowymi planami nauczania i przepisami o praktycznej nauce zawodu. Prawo oświatowe traktuje obowiązkowe zajęcia edukacyjne z zakresu kształcenia ogólnego i zawodowego, w tym praktyczną naukę zawodu, jako podstawową formę działalności dydaktyczno-wychowawczej szkoły. Praktyczna nauka zawodu ma służyć opanowaniu umiejętności potrzebnych do podjęcia pracy, a w przypadku zajęć u pracodawców również zastosowaniu i pogłębianiu wiedzy w rzeczywistych warunkach pracy.
 
-Po piąte, szkoła ma prowadzić ocenianie, klasyfikowanie i promowanie uczniów zgodnie z przepisami. Ocenianie bieżące nie jest tylko wystawianiem stopni. Ma monitorować pracę ucznia i przekazywać mu informację pomagającą w uczeniu się: co robi dobrze, co i jak wymaga poprawy oraz jak powinien dalej się uczyć. To bezpośrednio łączy obowiązek prawny z modelem pracy opartym na kryteriach, korekcie i drugiej próbie.
+Po piąte, szkoła ma prowadzić ocenianie, klasyfikowanie i promowanie uczniów zgodnie z przepisami. Ocenianie bieżące nie jest tylko wystawianiem stopni. Ma monitorować pracę ucznia i przekazywać mu informację pomagającą w uczeniu się: co robi dobrze, co i jak wymaga poprawy oraz jak powinien dalej się uczyć. W codziennej praktyce ta informacja musi być krótka i użyteczna, a nie zamieniona w dodatkową biurokrację.
 
-Po szóste, szkoła ma realizować program wychowawczo-profilaktyczny przygotowany na podstawie diagnozy potrzeb i problemów społeczności szkolnej. Program ten obejmuje działania wychowawcze wobec uczniów oraz działania profilaktyczne skierowane do uczniów, nauczycieli i rodziców. Z tego wynika, że diagnoza dzisiejszej młodzieży nie jest elementem publicystycznym, lecz warunkiem dobrze zaplanowanej pracy szkoły.
+Po szóste, szkoła ma realizować program wychowawczo-profilaktyczny przygotowany na podstawie diagnozy potrzeb i problemów społeczności szkolnej. Program ten obejmuje działania wychowawcze wobec uczniów oraz działania profilaktyczne skierowane do uczniów, nauczycieli i rodziców. Diagnoza ma pomagać w wyborze działań, a nie służyć do formułowania kolejnych ogólnych oczekiwań wobec nauczycieli.
 
 Po siódme, szkoła ma prowadzić doradztwo zawodowe. W szkole branżowej i technikum jest to szczególnie ważne, ponieważ wybór szkoły oznacza wejście w konkretną ścieżkę zawodu, praktyk, relacji z pracodawcą i dalszego rozwoju. Doradztwo powinno pomagać uczniowi rozumieć siebie, rynek pracy, wymagania zawodu i możliwe drogi po ukończeniu szkoły.
 
-Po ósme, statut szkoły ma określać cele i zadania szkoły oraz sposób ich wykonywania, w tym pomoc psychologiczno-pedagogiczną, opiekę nad uczniami z niepełnosprawnościami, bezpieczeństwo, promocję i ochronę zdrowia, ocenianie wewnątrzszkolne, zawody, w których szkoła kształci, organizację praktycznej nauki zawodu, pracownie, zajęcia zawodowe, dodatkowe działania zwiększające szanse zatrudnienia oraz organizację kształcenia ogólnego i zawodowego pracowników młodocianych. Ten katalog pokazuje, że zawód, wsparcie, bezpieczeństwo i wychowanie muszą być opisane jako system szkoły, a nie jako suma osobnych inicjatyw.
+Po ósme, statut szkoły ma określać cele i zadania szkoły oraz sposób ich wykonywania, w tym pomoc psychologiczno-pedagogiczną, opiekę nad uczniami z niepełnosprawnościami, bezpieczeństwo, promocję i ochronę zdrowia, ocenianie wewnątrzszkolne, zawody, w których szkoła kształci, organizację praktycznej nauki zawodu, pracownie, zajęcia zawodowe, dodatkowe działania zwiększające szanse zatrudnienia oraz organizację kształcenia ogólnego i zawodowego pracowników młodocianych. Ten katalog pokazuje, że zawód, wsparcie, bezpieczeństwo i wychowanie muszą być opisane jako system szkoły, a nie jako suma osobnych inicjatyw i osobistych stylów pracy.
 
 **Podstawa prawna, według publikacji ELI wraz z późniejszymi zmianami:** Prawo oświatowe, zwłaszcza art. 1, art. 26, art. 27, art. 98 i art. 109: https://eli.gov.pl/eli/DU/2017/59/ogl; rozporządzenie w sprawie oceniania, klasyfikowania i promowania uczniów: https://eli.gov.pl/eli/DU/2019/373/ogl; rozporządzenie w sprawie praktycznej nauki zawodu: https://eli.gov.pl/eli/DU/2019/391/ogl; rozporządzenie w sprawie pomocy psychologiczno-pedagogicznej: https://eli.gov.pl/eli/DU/2017/1591/ogl; rozporządzenie w sprawie bezpieczeństwa i higieny w szkołach: https://eli.gov.pl/eli/DU/2003/69/ogl; rozporządzenie w sprawie doradztwa zawodowego: https://eli.gov.pl/eli/DU/2019/325/ogl; rozporządzenie w sprawie ramowych planów nauczania dla publicznych szkół: https://eli.gov.pl/eli/DU/2024/781/ogl; rozporządzenie w sprawie podstaw programowych kształcenia w zawodach szkolnictwa branżowego: https://eli.gov.pl/eli/DU/2019/991/ogl.
 
 ### Cel nadrzędny
 
-Celem ZSZ5 jest przygotowanie ucznia do odpowiedzialnej pracy, dalszego rozwoju i samodzielnego życia przez zdobycie zawodu, rozwój kompetencji fundamentalnych i przekrojowych, budowanie sprawczości oraz uczenie odpowiedzialnego funkcjonowania w relacjach, technologii i społeczności.
+Celem ZSZ5 jest przygotowanie ucznia do odpowiedzialnej pracy, dalszego rozwoju i samodzielnego życia przez zdobycie zawodu, rozwój kompetencji podstawowych i przekrojowych, kulturę pracy, jasne wymagania, wsparcie z granicami oraz stopniowe uczenie odpowiedzialności.
 
 ### Cel w wersji komunikacyjnej
 
-> Uczymy zawodu i dorosłości. Prowadzimy ucznia od pierwszego zadania do standardu pracy: przez praktykę, wymagania, wsparcie, informację zwrotną i odpowiedzialność.
+> Uczymy zawodu i dorosłości. Nie obniżamy standardu, ale porządkujemy drogę dojścia: praktyka, wymagania, wsparcie, informacja zwrotna i odpowiedzialność.
 
 ### Profil absolwenta ZSZ5
 
@@ -263,7 +263,7 @@ Absolwent ZSZ5:
 1. **Wzmocnić jakość kształcenia zawodowego i kulturę pracy.**  
    Uczeń ma kończyć szkołę z kwalifikacjami, doświadczeniem i nawykami cenionymi przez pracodawców.
 
-2. **Rozwijać kompetencje fundamentalne w całej szkole.**  
+2. **Rozwijać kompetencje podstawowe w całej szkole.**
    Czytanie, komunikacja, matematyka praktyczna i kompetencje cyfrowe mają być ćwiczone również na przedmiotach zawodowych i w projektach.
 
 3. **Odbudowywać koncentrację, samoregulację i odpowiedzialność ucznia.**  
