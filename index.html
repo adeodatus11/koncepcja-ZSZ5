@@ -21,6 +21,7 @@
       --max: 1120px;
       --article: 790px;
       --radius: 8px;
+      --anchor-offset: 96px;
     }
 
     * {
@@ -250,6 +251,12 @@
     section {
       padding: 42px 0;
       border-top: 1px solid var(--line);
+    }
+
+    main[id],
+    .layout[id],
+    section[id] {
+      scroll-margin-top: var(--anchor-offset);
     }
 
     section:first-child {
@@ -748,5 +755,19 @@
       Wersja robocza koncepcji opisowej ZSZ5. Strona nie zawiera zdjęć ani elementów promocyjnych; jej celem jest uporządkowanie filozofii pracy szkoły i źródeł, które ją uzasadniają.
     </div>
   </footer>
+  <script>
+    (() => {
+      const setAnchorOffset = () => {
+        const topbar = document.querySelector('.topbar');
+        if (!topbar) return;
+        const offset = Math.ceil(topbar.getBoundingClientRect().height) + 24;
+        document.documentElement.style.setProperty('--anchor-offset', `${offset}px`);
+      };
+
+      setAnchorOffset();
+      window.addEventListener('load', setAnchorOffset);
+      window.addEventListener('resize', setAnchorOffset);
+    })();
+  </script>
 </body>
 </html>
