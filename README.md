@@ -19,6 +19,7 @@ Tych ustawień nie da się zapisać w plikach repozytorium. Wymagają uprawnień
 ## Zawartość
 
 - `index.html` - tekstowa strona główna z filozofią szkoły, opisami i źródłami.
+- `assets/szkola-mistrzow-logo.png` - logotyp użyty w nagłówku strony.
 - `md/04_audyt_prawdziwosci_i_rejestr_ryzyk.md` - audyt prawdziwości opracowań.
 - `md/05_katalog_zrodel_naukowych.md` - katalog źródeł naukowych.
 - `md/06_koncepcja_wizji_szkoly_zsz5.md` - spójny dokument koncepcji wizji szkoły.

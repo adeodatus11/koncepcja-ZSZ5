@@ -86,15 +86,31 @@
 
     .brand {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      align-items: center;
+      gap: 12px;
       color: var(--ink);
       text-decoration: none;
       font-weight: 850;
       line-height: 1.15;
     }
 
-    .brand span {
+    .brand img {
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+      flex: 0 0 auto;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: var(--ink);
+      font-size: 16px;
+      font-weight: 850;
+    }
+
+    .brand-subtitle {
       margin-top: 2px;
       color: var(--muted);
       font-size: 13px;
@@ -429,6 +445,11 @@
         flex-direction: column;
       }
 
+      .brand img {
+        width: 40px;
+        height: 40px;
+      }
+
       .links {
         justify-content: flex-start;
       }
@@ -465,8 +486,11 @@
   <header class="topbar">
     <nav class="nav" aria-label="Nawigacja główna">
       <a class="brand" href="#start">
-        Filozofia pracy ZSZ5
-        <span>Szkoła Mistrzów, zawód i dorosłość</span>
+        <img src="assets/szkola-mistrzow-logo.png" alt="Logo Szkoły Mistrzów">
+        <span class="brand-text">
+          Filozofia pracy ZSZ5
+          <span class="brand-subtitle">Szkoła Mistrzów, zawód i dorosłość</span>
+        </span>
       </a>
       <div class="links">
         <a href="#diagnoza">Diagnoza</a>
