@@ -3,23 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Filozofia ZSZ5 | Szkoła Mistrzów</title>
-  <meta name="description" content="Filozofia pracy ZSZ5: zawód, wymagania, wsparcie, koncentracja, praktyka i przygotowanie do dorosłości.">
+  <title>Filozofia pracy ZSZ5 | Szkoła Mistrzów</title>
+  <meta name="description" content="Opisowa koncepcja filozofii pracy ZSZ5: diagnoza ucznia, wymagania, wsparcie, praktyka, kompetencje i cel szkoły.">
   <style>
     :root {
-      --ink: #17212b;
-      --muted: #5f6b76;
-      --line: #d9e0e6;
+      --ink: #16202a;
+      --text: #24313c;
+      --muted: #60707e;
       --paper: #ffffff;
       --soft: #f4f7f8;
-      --green: #1d5a4a;
-      --green-2: #2e7a63;
-      --amber: #d8992c;
-      --brick: #9a4638;
-      --blue: #274c77;
-      --shadow: 0 18px 50px rgba(23, 33, 43, .16);
+      --soft-2: #edf3f2;
+      --line: #d7e0e5;
+      --green: #1e5b4e;
+      --blue: #2c5274;
+      --amber: #b7791f;
+      --brick: #934636;
+      --max: 1120px;
+      --article: 790px;
       --radius: 8px;
-      --max: 1180px;
     }
 
     * {
@@ -32,35 +33,51 @@
 
     body {
       margin: 0;
-      color: var(--ink);
+      color: var(--text);
       background: var(--paper);
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.55;
+      line-height: 1.72;
     }
 
     a {
-      color: inherit;
-      text-decoration: none;
+      color: var(--blue);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
     }
 
-    img {
-      max-width: 100%;
-      display: block;
+    a:hover,
+    a:focus-visible {
+      color: var(--green);
+    }
+
+    .skip-link {
+      position: absolute;
+      left: 16px;
+      top: -60px;
+      z-index: 100;
+      padding: 10px 14px;
+      background: var(--ink);
+      color: white;
+      border-radius: 6px;
+    }
+
+    .skip-link:focus {
+      top: 16px;
     }
 
     .topbar {
-      position: fixed;
-      inset: 0 0 auto;
+      position: sticky;
+      top: 0;
       z-index: 50;
-      background: rgba(255, 255, 255, .92);
-      border-bottom: 1px solid rgba(217, 224, 230, .85);
-      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(215, 224, 229, .95);
+      background: rgba(255, 255, 255, .94);
+      backdrop-filter: blur(14px);
     }
 
     .nav {
-      max-width: var(--max);
+      width: min(var(--max), calc(100% - 44px));
       margin: 0 auto;
-      padding: 10px 22px;
+      min-height: 68px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -69,28 +86,23 @@
 
     .brand {
       display: flex;
-      align-items: center;
-      gap: 12px;
-      min-width: 210px;
-      font-weight: 800;
-    }
-
-    .brand img {
-      width: 42px;
-      height: 42px;
-      object-fit: contain;
+      flex-direction: column;
+      justify-content: center;
+      color: var(--ink);
+      text-decoration: none;
+      font-weight: 850;
+      line-height: 1.15;
     }
 
     .brand span {
-      display: block;
-      font-size: 13px;
+      margin-top: 2px;
       color: var(--muted);
+      font-size: 13px;
       font-weight: 700;
     }
 
     .links {
       display: flex;
-      align-items: center;
       justify-content: flex-end;
       gap: 4px;
       flex-wrap: wrap;
@@ -99,363 +111,320 @@
     .links a {
       padding: 8px 10px;
       border-radius: 6px;
+      color: #354654;
       font-size: 14px;
-      font-weight: 700;
-      color: #344451;
+      font-weight: 750;
+      text-decoration: none;
     }
 
     .links a:hover,
     .links a:focus-visible {
       background: var(--soft);
+      color: var(--ink);
       outline: none;
     }
 
     .hero {
-      min-height: 86vh;
-      display: grid;
-      align-items: end;
-      position: relative;
-      overflow: hidden;
-      background:
-        linear-gradient(180deg, rgba(12, 20, 27, .38) 0%, rgba(12, 20, 27, .62) 58%, rgba(12, 20, 27, .82) 100%),
-        url("assets/zsz5-hero.jpg") center / cover no-repeat;
-      color: white;
-      padding: 104px 22px 56px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #f7faf9 0%, #ffffff 100%);
     }
 
     .hero-inner {
-      width: min(var(--max), 100%);
+      width: min(var(--max), calc(100% - 44px));
       margin: 0 auto;
+      padding: 76px 0 52px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 54px;
+      align-items: end;
     }
 
     .eyebrow {
       margin: 0 0 14px;
-      display: inline-flex;
-      align-items: center;
-      gap: 9px;
+      color: var(--green);
       font-size: 13px;
-      font-weight: 800;
+      font-weight: 850;
       text-transform: uppercase;
       letter-spacing: 0;
-      color: #f3c66a;
-    }
-
-    .eyebrow::before {
-      content: "";
-      width: 34px;
-      height: 3px;
-      background: #f3c66a;
-      border-radius: 999px;
     }
 
     h1 {
+      max-width: 900px;
       margin: 0;
-      max-width: 920px;
-      font-size: clamp(42px, 7vw, 86px);
-      line-height: .98;
+      color: var(--ink);
+      font-size: clamp(42px, 6vw, 78px);
+      line-height: 1.02;
       letter-spacing: 0;
     }
 
-    .hero-lead {
+    .lead {
       max-width: 760px;
-      margin: 22px 0 0;
-      font-size: clamp(18px, 2vw, 24px);
-      color: rgba(255, 255, 255, .9);
+      margin: 24px 0 0;
+      color: #344451;
+      font-size: clamp(18px, 2vw, 23px);
+      line-height: 1.55;
     }
 
-    .hero-grid {
-      margin-top: 38px;
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .hero-item {
-      min-height: 108px;
-      padding: 16px;
-      border: 1px solid rgba(255, 255, 255, .22);
-      background: rgba(255, 255, 255, .1);
+    .thesis {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-left: 6px solid var(--green);
       border-radius: var(--radius);
-      backdrop-filter: blur(12px);
+      background: var(--paper);
     }
 
-    .hero-item strong {
+    .thesis strong {
       display: block;
-      font-size: 16px;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
+      color: var(--green);
+      font-size: 15px;
+      text-transform: uppercase;
     }
 
-    .hero-item span {
-      color: rgba(255, 255, 255, .82);
+    .thesis p {
+      margin: 0;
+      color: var(--text);
+      font-size: 16px;
+    }
+
+    .layout {
+      width: min(var(--max), calc(100% - 44px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 250px minmax(0, var(--article));
+      gap: 56px;
+      align-items: start;
+      padding: 54px 0 80px;
+    }
+
+    .toc {
+      position: sticky;
+      top: 92px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--soft);
+    }
+
+    .toc strong {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--ink);
       font-size: 14px;
+    }
+
+    .toc a {
+      display: block;
+      padding: 7px 0;
+      color: #3f515f;
+      font-size: 14px;
+      line-height: 1.35;
+      text-decoration: none;
+      border-top: 1px solid rgba(215, 224, 229, .75);
+    }
+
+    .toc a:first-of-type {
+      border-top: 0;
+    }
+
+    article {
+      min-width: 0;
     }
 
     section {
-      padding: 72px 22px;
-    }
-
-    .wrap {
-      width: min(var(--max), 100%);
-      margin: 0 auto;
-    }
-
-    .section-head {
-      display: grid;
-      grid-template-columns: minmax(0, .85fr) minmax(280px, .45fr);
-      gap: 36px;
-      align-items: end;
-      margin-bottom: 34px;
-    }
-
-    .section-head h2 {
-      margin: 0;
-      font-size: clamp(30px, 4vw, 50px);
-      line-height: 1.08;
-      letter-spacing: 0;
-    }
-
-    .section-head p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 17px;
-    }
-
-    .band {
-      background: var(--soft);
-      border-block: 1px solid var(--line);
-    }
-
-    .diagnosis {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .tile {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 18px;
-      min-height: 220px;
-    }
-
-    .tile .num {
-      width: 34px;
-      height: 34px;
-      display: grid;
-      place-items: center;
-      border-radius: 50%;
-      background: #e6f0ed;
-      color: var(--green);
-      font-weight: 900;
-      margin-bottom: 18px;
-    }
-
-    .tile h3,
-    .model-card h3,
-    .metric h3 {
-      margin: 0 0 8px;
-      font-size: 19px;
-      line-height: 1.2;
-    }
-
-    .tile p,
-    .model-card p,
-    .metric p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 15px;
-    }
-
-    .state-grid {
-      display: grid;
-      grid-template-columns: .9fr 1.1fr;
-      gap: 24px;
-      align-items: stretch;
-    }
-
-    .photo-panel {
-      min-height: 460px;
-      background: url("assets/zsz5-workshop.jpg") center / cover no-repeat;
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-    }
-
-    .state-copy {
-      display: grid;
-      gap: 14px;
-    }
-
-    .fact-row {
-      padding: 18px;
-      border-left: 5px solid var(--green);
-      background: var(--paper);
-      border-radius: var(--radius);
+      padding: 42px 0;
       border-top: 1px solid var(--line);
-      border-right: 1px solid var(--line);
-      border-bottom: 1px solid var(--line);
     }
 
-    .fact-row:nth-child(2) {
-      border-left-color: var(--amber);
+    section:first-child {
+      padding-top: 0;
+      border-top: 0;
     }
 
-    .fact-row:nth-child(3) {
-      border-left-color: var(--blue);
-    }
-
-    .fact-row:nth-child(4) {
-      border-left-color: var(--brick);
-    }
-
-    .fact-row strong {
-      display: block;
-      margin-bottom: 5px;
-      font-size: 17px;
-    }
-
-    .fact-row span {
-      color: var(--muted);
-    }
-
-    .model {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .model-card {
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 20px;
-      background: var(--paper);
-      min-height: 210px;
-    }
-
-    .model-card .tag {
-      display: inline-block;
-      margin-bottom: 16px;
-      padding: 5px 8px;
-      border-radius: 5px;
-      background: #eef3f6;
-      color: var(--blue);
-      font-size: 12px;
-      font-weight: 900;
-      text-transform: uppercase;
+    h2 {
+      margin: 0 0 18px;
+      color: var(--ink);
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1.12;
       letter-spacing: 0;
     }
 
-    .goal {
-      background: var(--green);
-      color: white;
-      position: relative;
-      overflow: hidden;
+    h3 {
+      margin: 34px 0 10px;
+      color: var(--ink);
+      font-size: 24px;
+      line-height: 1.25;
+      letter-spacing: 0;
     }
 
-    .goal .section-head p {
-      color: rgba(255, 255, 255, .82);
+    h4 {
+      margin: 24px 0 8px;
+      color: var(--green);
+      font-size: 18px;
+      line-height: 1.3;
     }
 
-    .goal-box {
-      max-width: 980px;
-      padding: 30px;
+    p {
+      margin: 0 0 16px;
+      font-size: 17px;
+    }
+
+    .intro {
+      color: #344451;
+      font-size: 19px;
+      line-height: 1.65;
+    }
+
+    .callout {
+      margin: 24px 0;
+      padding: 20px 22px;
+      border: 1px solid var(--line);
+      border-left: 6px solid var(--blue);
       border-radius: var(--radius);
-      background: rgba(255, 255, 255, .12);
-      border: 1px solid rgba(255, 255, 255, .24);
+      background: var(--soft);
     }
 
-    .goal-box p {
-      margin: 0;
-      font-size: clamp(24px, 3vw, 40px);
-      line-height: 1.18;
-      font-weight: 850;
+    .callout strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--blue);
     }
 
-    .profile {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
-      margin-top: 26px;
-    }
-
-    .profile li {
-      list-style: none;
+    .source-note {
+      margin: 20px 0 26px;
       padding: 14px 16px;
       border-radius: var(--radius);
-      background: rgba(255, 255, 255, .11);
-      border: 1px solid rgba(255, 255, 255, .18);
-      min-height: 58px;
+      background: #fff8ea;
+      border: 1px solid #ead39c;
+      color: #624817;
+      font-size: 14px;
+      line-height: 1.55;
     }
 
-    .profile ul {
-      display: contents;
-      margin: 0;
+    .source-note a {
+      color: #6a4a0f;
+      font-weight: 700;
+    }
+
+    .principle {
+      margin: 18px 0;
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper);
+    }
+
+    .principle h3,
+    .principle h4 {
+      margin-top: 0;
+    }
+
+    .principle:nth-of-type(3n + 1) {
+      border-left: 5px solid var(--green);
+    }
+
+    .principle:nth-of-type(3n + 2) {
+      border-left: 5px solid var(--blue);
+    }
+
+    .principle:nth-of-type(3n + 3) {
+      border-left: 5px solid var(--brick);
+    }
+
+    ul {
+      margin: 10px 0 18px 22px;
       padding: 0;
     }
 
-    .metrics {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 14px;
+    li {
+      margin: 8px 0;
+      padding-left: 4px;
+      font-size: 17px;
     }
 
-    .metric {
-      padding: 18px;
+    .definition {
+      margin: 26px 0;
+      padding: 24px;
       border-radius: var(--radius);
-      background: var(--soft);
-      border: 1px solid var(--line);
-      min-height: 170px;
+      background: var(--green);
+      color: white;
+    }
+
+    .definition p {
+      margin: 0;
+      font-size: clamp(22px, 3vw, 32px);
+      line-height: 1.32;
+      font-weight: 820;
+    }
+
+    .quote {
+      margin: 26px 0;
+      padding: 24px;
+      border-radius: var(--radius);
+      background: var(--soft-2);
+      color: var(--ink);
+      font-size: 21px;
+      line-height: 1.48;
+      font-weight: 780;
     }
 
     .sources {
-      background: #111922;
-      color: white;
-      padding: 38px 22px;
-    }
-
-    .sources .wrap {
-      display: grid;
-      grid-template-columns: .5fr 1fr;
-      gap: 28px;
-      align-items: start;
-    }
-
-    .sources h2 {
-      margin: 0;
-      font-size: 24px;
-    }
-
-    .sources p {
-      margin: 8px 0 0;
-      color: rgba(255, 255, 255, .72);
+      padding: 34px 0 0;
     }
 
     .source-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
     }
 
-    .source-list a {
-      padding: 8px 10px;
-      border: 1px solid rgba(255, 255, 255, .18);
-      border-radius: 6px;
-      color: rgba(255, 255, 255, .9);
-      font-size: 13px;
-    }
-
-    .note {
-      margin-top: 22px;
+    .source-list li {
+      margin: 0;
       padding: 14px 16px;
+      border: 1px solid var(--line);
       border-radius: var(--radius);
-      background: #fff8e8;
-      border: 1px solid #eed49b;
-      color: #5c4516;
+      background: var(--soft);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .footer {
+      border-top: 1px solid var(--line);
+      background: #111922;
+      color: white;
+    }
+
+    .footer-inner {
+      width: min(var(--max), calc(100% - 44px));
+      margin: 0 auto;
+      padding: 28px 0;
+      color: rgba(255, 255, 255, .78);
       font-size: 14px;
     }
 
-    @media (max-width: 960px) {
+    @media (max-width: 980px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding-top: 54px;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .toc {
+        position: static;
+      }
+    }
+
+    @media (max-width: 680px) {
       .nav {
+        min-height: auto;
+        padding: 12px 0;
         align-items: flex-start;
         flex-direction: column;
       }
@@ -464,214 +433,265 @@
         justify-content: flex-start;
       }
 
-      .hero {
-        min-height: auto;
-        padding-top: 148px;
-      }
-
-      .hero-grid,
-      .diagnosis,
-      .model,
-      .metrics {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .section-head,
-      .state-grid,
-      .sources .wrap {
-        grid-template-columns: 1fr;
-      }
-
-      .photo-panel {
-        min-height: 320px;
-      }
-    }
-
-    @media (max-width: 620px) {
-      .brand {
-        min-width: 0;
-      }
-
       .links a {
         padding: 7px 8px;
         font-size: 13px;
       }
 
-      .hero {
-        padding: 172px 18px 38px;
-      }
-
-      .hero-grid,
-      .diagnosis,
-      .model,
-      .metrics,
-      .profile {
-        grid-template-columns: 1fr;
+      .hero-inner,
+      .layout,
+      .footer-inner {
+        width: min(100% - 32px, var(--max));
       }
 
       section {
-        padding: 54px 18px;
+        padding: 34px 0;
       }
 
-      .goal-box {
-        padding: 22px;
+      h1 {
+        font-size: clamp(38px, 12vw, 56px);
+      }
+
+      p,
+      li {
+        font-size: 16px;
       }
     }
   </style>
 </head>
 <body>
-  <header class="topbar" aria-label="Nawigacja">
-    <nav class="nav">
-      <a class="brand" href="#start" aria-label="Filozofia ZSZ5">
-        <img src="assets/szkola-mistrzow-logo.png" alt="Logo Szkoły Mistrzów">
-        <strong>ZSZ5 <span>Szkoła Mistrzów</span></strong>
+  <a class="skip-link" href="#tresc">Przejdź do treści</a>
+
+  <header class="topbar">
+    <nav class="nav" aria-label="Nawigacja główna">
+      <a class="brand" href="#start">
+        Filozofia pracy ZSZ5
+        <span>Szkoła Mistrzów, zawód i dorosłość</span>
       </a>
       <div class="links">
         <a href="#diagnoza">Diagnoza</a>
-        <a href="#stan">Stan szkoły</a>
+        <a href="#punkt-wyjscia">Punkt wyjścia</a>
+        <a href="#zasady">Zasady</a>
         <a href="#model">Model</a>
         <a href="#cel">Cel</a>
-        <a href="#mierniki">Mierniki</a>
+        <a href="#zrodla">Źródła</a>
       </div>
     </nav>
   </header>
 
   <main id="start">
-    <section class="hero">
+    <section class="hero" aria-labelledby="tytul">
       <div class="hero-inner">
-        <p class="eyebrow">Filozofia pracy ZSZ5</p>
-        <h1>Szkoła blisko zawodu, pracodawcy i ucznia</h1>
-        <p class="hero-lead">Uczymy fachu i dorosłości. Prowadzimy ucznia do standardu pracy przez praktykę, wymagania, wsparcie, informację zwrotną i odpowiedzialność.</p>
-        <div class="hero-grid" aria-label="Główne zasady">
-          <div class="hero-item"><strong>Nie obniżamy wymagań</strong><span>Pokazujemy drogę dojścia do wysokiego standardu.</span></div>
-          <div class="hero-item"><strong>Łączymy szkołę z pracą</strong><span>Praktyka i pracodawca są częścią uczenia się.</span></div>
-          <div class="hero-item"><strong>Ćwiczymy koncentrację</strong><span>Uwaga, higiena cyfrowa i samoregulacja są kompetencjami zawodowymi.</span></div>
-          <div class="hero-item"><strong>Wspieramy do samodzielności</strong><span>Relacja i pomoc mają prowadzić do odpowiedzialności.</span></div>
+        <div>
+          <p class="eyebrow">Koncepcja opisowa</p>
+          <h1 id="tytul">Szkoła, która prowadzi ucznia do zawodu, pracy i dorosłości</h1>
+          <p class="lead">ZSZ5 nie powinien być szkołą, która tylko reaguje na trudności młodzieży. Powinien być środowiskiem, które rozumie te trudności, ale nie zatrzymuje się na opiece. Naszym zadaniem jest prowadzić ucznia do realnego standardu: zawodowego, społecznego, osobistego i obywatelskiego.</p>
         </div>
+        <aside class="thesis" aria-label="Teza koncepcji">
+          <strong>Teza główna</strong>
+          <p>Wsparcie ma sens wtedy, gdy prowadzi do odpowiedzialności. Wymagania mają sens wtedy, gdy uczeń zna drogę dojścia do standardu. Filozofia ZSZ5 łączy oba porządki.</p>
+        </aside>
       </div>
     </section>
 
-    <section id="diagnoza" class="band">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Diagnoza ucznia, z którym dziś pracujemy</h2>
-          <p>Nie chodzi o etykietowanie pokolenia. Chodzi o profesjonalne rozpoznanie warunków, w których młody człowiek uczy się zawodu, relacji i dorosłości.</p>
-        </div>
-        <div class="diagnosis">
-          <article class="tile">
-            <div class="num">1</div>
-            <h3>Rozproszona uwaga</h3>
-            <p>Cyfrowe bodźce utrudniają skupienie. W szkole zawodowej koncentracja jest częścią BHP, jakości usługi i odpowiedzialności.</p>
-          </article>
-          <article class="tile">
-            <div class="num">2</div>
-            <h3>Słabszy sens szkoły</h3>
-            <p>Uczeń częściej pyta, po co ma się uczyć. Odpowiadamy praktyką, zadaniami zawodowymi i jasnym związkiem z dorosłością.</p>
-          </article>
-          <article class="tile">
-            <div class="num">3</div>
-            <h3>Potrzeba struktury</h3>
-            <p>Motywacja rośnie, gdy uczeń zna cel, kryteria, swój postęp i następny krok. Samo „dasz radę” nie wystarcza.</p>
-          </article>
-          <article class="tile">
-            <div class="num">4</div>
-            <h3>Wsparcie bez pobłażliwości</h3>
-            <p>Bezpieczeństwo i relacja pomagają przyjąć wymagania. Pomoc ma prowadzić do obecności, pracy i odpowiedzialności.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+    <div class="layout" id="tresc">
+      <aside class="toc" aria-label="Spis treści">
+        <strong>Spis treści</strong>
+        <a href="#diagnoza">1. Diagnoza ucznia</a>
+        <a href="#punkt-wyjscia">2. Punkt wyjścia ZSZ5</a>
+        <a href="#zasady">3. Zasady filozofii</a>
+        <a href="#model">4. Model pracy</a>
+        <a href="#cel">5. Cel szkoły</a>
+        <a href="#absolwent">6. Profil absolwenta</a>
+        <a href="#mierniki">7. Jak sprawdzać postęp</a>
+        <a href="#zrodla">8. Źródła</a>
+      </aside>
 
-    <section id="stan">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Aktualny punkt wyjścia ZSZ5</h2>
-          <p>Szkoła ma mocny praktyczny fundament: model dualny, markę Szkoły Mistrzów, zawody usługowe, rzemieślnicze i techniczne oraz realną współpracę z pracodawcami.</p>
-        </div>
-        <div class="state-grid">
-          <div class="photo-panel" role="img" aria-label="Uczniowie podczas pracy praktycznej"></div>
-          <div class="state-copy">
-            <div class="fact-row"><strong>Struktura</strong><span>Technikum nr 5, Branżowa Szkoła I stopnia nr 5, Branżowa Szkoła II stopnia nr 5 oraz kwalifikacyjne kursy zawodowe.</span></div>
-            <div class="fact-row"><strong>Kierunki</strong><span>Według szkolamistrzow.info: technik usług fryzjerskich, technik handlowiec oraz zawody branżowe, m.in. fryzjer, cukiernik, kucharz, sprzedawca, blacharz, lakiernik, stolarz, piekarz, elektryk.</span></div>
-            <div class="fact-row"><strong>Model</strong><span>Uczeń szkoły branżowej łączy naukę z praktyką u pracodawcy, a szkoła wspiera kontakt z cechami i zakładami pracy.</span></div>
-            <div class="fact-row"><strong>Wsparcie</strong><span>Szkoła komunikuje dostęp do pedagoga, psychologa, pedagoga specjalnego i konsultanta do spraw uzależnień.</span></div>
+      <article>
+        <section id="diagnoza" aria-labelledby="diagnoza-title">
+          <h2 id="diagnoza-title">1. Diagnoza ucznia, z którym dziś pracujemy</h2>
+          <p class="intro">Punktem wyjścia nie jest narzekanie na młodzież ani idealizowanie dawnych roczników. Punktem wyjścia jest rzetelne rozpoznanie warunków, w których uczeń funkcjonuje: cyfrowych bodźców, słabszej koncentracji, niepewnej motywacji, nierównego zaplecza rodzinnego, presji rówieśniczej, lęku przed oceną oraz często niskiego poczucia wpływu na własną przyszłość.</p>
+
+          <p>W takim kontekście szkoła zawodowa ma szczególną rolę. Uczeń ZSZ5 nie uczy się wyłącznie po to, aby zaliczyć materiał. Uczy się po to, aby wejść w pracę, relację z pracodawcą, odpowiedzialność za klienta, narzędzia, termin, jakość wykonania i własne decyzje. To zmienia sposób myślenia o dydaktyce i wychowaniu. Lekcja, praktyka, rozmowa wychowawcza, kontakt z pracodawcą i wsparcie specjalistyczne powinny prowadzić w jednym kierunku: do większej samodzielności ucznia.</p>
+
+          <h3>Uwaga i koncentracja jako problem edukacyjny i zawodowy</h3>
+          <p>Badania OECD dotyczące uczniów i urządzeń cyfrowych pokazują, że rekreacyjne używanie technologii w szkole oraz rozproszenie przez urządzenia własne lub cudze wiąże się z gorszymi warunkami uczenia się. Nie oznacza to, że szkoła ma być antytechnologiczna. Oznacza raczej, że musi uczyć rozróżnienia między technologią jako narzędziem pracy a technologią jako stałym źródłem przerwania uwagi.</p>
+
+          <p>W ZSZ5 ten problem ma wymiar praktyczny. Koncentracja nie jest tylko warunkiem dobrej oceny. Jest elementem bezpieczeństwa pracy, kultury usługi, komunikacji z klientem i odpowiedzialności za efekt. Uczeń, który nie potrafi utrzymać uwagi przy instrukcji, proporcji, zamówieniu, narzędziu, terminie lub rozmowie z klientem, będzie miał trudność nie tylko w szkole, ale także na rynku pracy. Dlatego ćwiczenie koncentracji powinno być wpisane w codzienną organizację lekcji i praktyki.</p>
+
+          <div class="source-note">Podstawa źródłowa: OECD, <a href="https://www.oecd-ilibrary.org/education/students-digital-devices-and-success_9e4c0624-en">Students, digital devices and success</a>; UNESCO, <a href="https://www.unesco.org/gem-report/en/technology">Technology in education</a>.</div>
+
+          <h3>Motywacja jako skutek doświadczenia sensu i postępu</h3>
+          <p>W pracy z dzisiejszym uczniem nie wystarcza zdanie: „ma się uczyć, bo tak trzeba”. Szkoła nie może jednak przejść w drugą skrajność i uzależniać wymagań od chwilowego nastroju ucznia. Badania nad motywacją pokazują, że zaangażowanie rośnie wtedy, gdy człowiek widzi sens działania, doświadcza kompetencji, ma relację z dorosłym i rozumie, jaki krok ma wykonać dalej. W praktyce oznacza to, że wymagania powinny być czytelne, zadania dobrze osadzone, a informacja zwrotna konkretna.</p>
+
+          <p>Uczeń szkoły zawodowej często mocniej reaguje na zadania, które mają widoczny związek z życiem i pracą. Nie znaczy to, że każdy temat musi być natychmiast użyteczny. Znaczy to, że nauczyciel powinien częściej budować most między treścią szkolną a sytuacjami, które uczeń rozpoznaje: umową, wynagrodzeniem, reklamacją, opisem usługi, rozmową z klientem, budżetem, instrukcją, egzaminem zawodowym, dalszą nauką lub prowadzeniem własnej działalności.</p>
+
+          <div class="source-note">Podstawa źródłowa: Ryan i Deci, teoria autodeterminacji, DOI: <a href="https://doi.org/10.1016/j.cedpsych.2020.101860">10.1016/j.cedpsych.2020.101860</a>; Bandura, self-efficacy, DOI: <a href="https://doi.org/10.1037/0033-295X.84.2.191">10.1037/0033-295X.84.2.191</a>.</div>
+
+          <h3>Dobrostan, bezpieczeństwo i przynależność jako warunek przyjęcia wymagań</h3>
+          <p>Współczesna szkoła nie może ignorować zdrowia psychicznego, przemocy, osamotnienia, kryzysów rodzinnych i trudności emocjonalnych. Jednocześnie dobrostan nie może być rozumiany jako brak wymagań. W logice ZSZ5 bezpieczeństwo ma służyć temu, aby uczeń mógł przyjąć wysiłek, obecność, punktualność, korektę błędów i odpowiedzialność. Relacja z nauczycielem nie jest celem samym w sobie. Jest warunkiem tego, żeby uczeń dopuścił dorosłego do rozmowy o standardzie pracy i konsekwencjach decyzji.</p>
+
+          <p>Dlatego w języku szkoły warto unikać dwóch uproszczeń. Pierwsze brzmi: „uczeń ma się dostosować, a jeśli nie potrafi, to jego problem”. Drugie brzmi: „uczeń ma trudności, więc nie można od niego wymagać”. Filozofia ZSZ5 powinna być trzecia: rozumiemy trudności, ale prowadzimy ucznia ku dorosłości. Pomoc ma wzmacniać obecność, sprawczość i odpowiedzialność, a nie zastępować je.</p>
+
+          <div class="source-note">Podstawa źródłowa: Roorda i in., relacje nauczyciel-uczeń i zaangażowanie, DOI: <a href="https://doi.org/10.3102/0034654311421793">10.3102/0034654311421793</a>; MEN, <a href="https://reforma26.men.gov.pl/o-reformie/">Reforma 26</a>.</div>
+        </section>
+
+        <section id="punkt-wyjscia" aria-labelledby="punkt-title">
+          <h2 id="punkt-title">2. Punkt wyjścia ZSZ5</h2>
+          <p class="intro">ZSZ5 ma silny fundament, którego wiele szkół nie musi i nie może zbudować od zera: praktyczny charakter kształcenia, system dualny, relację z pracodawcami, markę Szkoły Mistrzów i ofertę osadzoną w zawodach usługowych, rzemieślniczych oraz technicznych.</p>
+
+          <p>Jako podstawowe publiczne źródło oferty szkoły przyjmujemy stronę <a href="https://www.szkolamistrzow.info/poznaj-nas">szkolamistrzow.info</a>. To z niej wynika komunikowany obraz szkoły: Technikum nr 5, Branżowa Szkoła I stopnia nr 5, Branżowa Szkoła II stopnia nr 5, kwalifikacyjne kursy zawodowe oraz oferta obejmująca między innymi technika usług fryzjerskich, technika handlowca i zawody branżowe takie jak fryzjer, cukiernik, kucharz, sprzedawca, blacharz, lakiernik, stolarz, piekarz, tapicer, fotograf, krawiec, murarz-tynkarz, monter zabudowy i robót wykończeniowych w budownictwie, kelner oraz elektryk.</p>
+
+          <p>Ta lista nie jest tylko katalogiem rekrutacyjnym. Pokazuje ważną cechę szkoły: uczeń ZSZ5 może uczyć się zawodu blisko realnego rynku usług i pracy. W szkole branżowej szczególne znaczenie ma status ucznia jako osoby wchodzącej w środowisko pracodawcy. To rodzi szanse, ale też obowiązki. Uczeń szybciej doświadcza dorosłości, wynagrodzenia, umowy, odpowiedzialności i standardu pracy, ale równocześnie potrzebuje mocniejszego prowadzenia, bo funkcjonuje na styku szkoły, firmy, rodziny i grupy rówieśniczej.</p>
+
+          <div class="callout">
+            <strong>Uwaga organizacyjna</strong>
+            Aktualna liczba uczniów, oddziałów, nauczycieli i aktywnie współpracujących pracodawców powinna pochodzić z arkusza organizacyjnego, SIO, danych rekrutacyjnych i dokumentacji szkoły. Strona szkolamistrzow.info jest źródłem publicznej oferty i komunikacji szkoły, nie zastępuje danych organizacyjnych.
           </div>
-        </div>
-        <div class="note">Źródłem publicznej oferty i kierunków jest szkolamistrzow.info. Dane liczbowe o oddziałach, uczniach, nauczycielach i pracodawcach należy potwierdzić w arkuszu organizacyjnym oraz danych szkoły przed publikacją wersji oficjalnej.</div>
-      </div>
-    </section>
 
-    <section id="model" class="band">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Model rozwoju kształcenia</h2>
-          <p>Każdy filar ma prowadzić do tego samego efektu: uczeń zdobywa fach, ale też uczy się pracować, myśleć, współpracować i odpowiadać za decyzje.</p>
-        </div>
-        <div class="model">
-          <article class="model-card"><span class="tag">Filar 1</span><h3>Fach i kultura pracy</h3><p>Kwalifikacje, egzaminy, BHP, jakość, punktualność, odpowiedzialność za narzędzia, klienta i zespół.</p></article>
-          <article class="model-card"><span class="tag">Filar 2</span><h3>Kompetencje fundamentalne</h3><p>Czytanie instrukcji, matematyka praktyczna, komunikacja, cyfrowa ostrożność i krytyczna analiza informacji.</p></article>
-          <article class="model-card"><span class="tag">Filar 3</span><h3>Koncentracja i samoregulacja</h3><p>Praca w blokach, ograniczanie dystraktorów, planowanie zadania, domykanie pracy i druga próba.</p></article>
-          <article class="model-card"><span class="tag">Filar 4</span><h3>Feedback i wymagania</h3><p>Uczeń zna standard, widzi postęp i dostaje konkretny następny krok zamiast samej oceny.</p></article>
-          <article class="model-card"><span class="tag">Filar 5</span><h3>Relacja i bezpieczeństwo</h3><p>Dorosły widzi ucznia, stawia granice i prowadzi go do odpowiedzialności, a nie wyręcza.</p></article>
-          <article class="model-card"><span class="tag">Filar 6</span><h3>Dorosłe życie</h3><p>Prawo pracy, finanse, zdrowie, profilaktyka, AI, instytucje publiczne i planowanie ścieżki po szkole.</p></article>
-        </div>
-      </div>
-    </section>
+          <p>Ważnym elementem punktu wyjścia jest również pomoc psychologiczno-pedagogiczna komunikowana na stronie ZSZ5: pedagog, psycholog, pedagog specjalny i konsultant do spraw uzależnień. W koncepcji szkoły nie powinno się traktować tej pomocy jako dodatku do właściwej pracy szkoły. W realiach współczesnej młodzieży wsparcie specjalistyczne, wychowawca, nauczyciel zawodu, nauczyciel przedmiotu ogólnego i pracodawca powinni tworzyć spójny system prowadzenia ucznia.</p>
 
-    <section id="cel" class="goal">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Cel szkoły</h2>
-          <p>Poza oczywistymi obowiązkami wynikającymi z prawa, potrzebujemy wspólnego języka: po czym poznamy, że nasza praca ma sens.</p>
-        </div>
-        <div class="goal-box">
-          <p>Celem ZSZ5 jest przygotowanie ucznia do odpowiedzialnej pracy, dalszego rozwoju i samodzielnego życia przez zdobycie zawodu, kompetencji fundamentalnych, sprawczości i kultury odpowiedzialności.</p>
-        </div>
-        <div class="profile" aria-label="Profil absolwenta">
-          <ul>
-            <li>Ma kwalifikacje i rozumie standard swojego fachu.</li>
-            <li>Pracuje punktualnie, bezpiecznie i odpowiedzialnie.</li>
-            <li>Czyta instrukcje, dokumenty i komunikaty potrzebne w pracy.</li>
-            <li>Używa technologii celowo, krytycznie i bez utraty uwagi.</li>
-            <li>Przyjmuje informację zwrotną i poprawia swoją pracę.</li>
-            <li>Komunikuje się z klientem, pracodawcą i zespołem.</li>
-            <li>Zna podstawy prawa pracy, finansów, zdrowia i bezpieczeństwa.</li>
-            <li>Wie, że wolność łączy się z odpowiedzialnością.</li>
+          <div class="source-note">Podstawa źródłowa: <a href="https://www.szkolamistrzow.info/poznaj-nas">Szkoła Mistrzów, oferta i opis szkoły</a>; <a href="https://www.szkolamistrzow.info/mlodociani">informacje dla pracowników młodocianych</a>; <a href="https://zsz5.edupage.org/a/pomoc-psychologiczno-pedagogiczna">pomoc psychologiczno-pedagogiczna ZSZ5</a>.</div>
+        </section>
+
+        <section id="zasady" aria-labelledby="zasady-title">
+          <h2 id="zasady-title">3. Zasady filozofii pracy szkoły</h2>
+          <p class="intro">Filozofia szkoły nie powinna być zestawem haseł. Powinna być wspólną odpowiedzią nauczycieli na pytanie: jak pracujemy z takim uczniem, jakiego rzeczywiście mamy, i do jakiego efektu chcemy go doprowadzić.</p>
+
+          <div class="definition">
+            <p>ZSZ5 prowadzi ucznia do zawodu i dorosłości przez wysokie wymagania końcowe, jasną drogę dojścia, praktykę u pracodawców, relację z dorosłym, konkretną informację zwrotną, wsparcie specjalistyczne i uczenie odpowiedzialności.</p>
+          </div>
+
+          <div class="principle">
+            <h3>Wymagania nie znikają, ale zmienia się droga dojścia</h3>
+            <p>Szkoła zawodowa nie może rezygnować ze standardu. Absolwent ma pracować bezpiecznie, punktualnie, odpowiedzialnie i fachowo. Ma rozumieć polecenie, narzędzie, termin, koszt, instrukcję, klienta i konsekwencje błędu. Dlatego wymagania końcowe powinny pozostać wysokie.</p>
+            <p>Zmienić powinna się natomiast organizacja dochodzenia do tych wymagań. Uczeń częściej potrzebuje krótszych etapów pracy, widocznych kryteriów, powtórzenia instrukcji, ćwiczenia koncentracji, informacji zwrotnej i możliwości poprawy. To nie jest obniżanie poziomu. To jest zwiększanie szansy, że uczeń rzeczywiście do poziomu dojdzie.</p>
+          </div>
+
+          <div class="principle">
+            <h3>Wsparcie ma prowadzić do samodzielności</h3>
+            <p>Pomoc psychologiczna, pedagogiczna i wychowawcza jest potrzebna, ale jej celem nie może być trwałe wyręczanie ucznia. Celem jest powrót do obecności, podjęcie zadania, naprawienie błędu, odbudowanie relacji, uregulowanie emocji i wzięcie odpowiedzialności za następny krok.</p>
+            <p>Tak rozumiane wsparcie jest wymagające. Nie mówi uczniowi: „nic nie musisz”. Mówi raczej: „widzimy, że jest trudno; ustalmy, co robisz dalej i kto może ci w tym pomóc”.</p>
+          </div>
+
+          <div class="principle">
+            <h3>Relacja jest narzędziem prowadzenia do standardu</h3>
+            <p>Badania nad relacją nauczyciel-uczeń pokazują jej znaczenie dla zaangażowania i wyników. W ZSZ5 relacja powinna być rozumiana praktycznie: nauczyciel zna ucznia, widzi jego wysiłek, reaguje na wycofanie, rozmawia o frekwencji i praktykach, ale równocześnie jasno nazywa granice. Dobra relacja nie polega na pobłażliwości. Polega na tym, że uczeń wie, iż dorosły jest po jego stronie, ale po stronie jego rozwoju, a nie po stronie unikania obowiązków.</p>
+          </div>
+
+          <div class="principle">
+            <h3>Praktyka zawodowa jest centrum sensu szkoły</h3>
+            <p>ZSZ5 ma naturalny atut: wielu uczniów uczy się w kontakcie z pracodawcą i realną pracą. Ten atut powinien być wykorzystany mocniej niż tylko organizacyjnie. Pracodawca może być źródłem informacji o punktualności, komunikacji, jakości pracy, BHP, gotowości do uczenia się i kulturze osobistej ucznia. Te informacje powinny wracać do szkoły i wspierać pracę wychowawczą oraz dydaktyczną.</p>
+            <p>Praktyka ma także nadawać sens przedmiotom ogólnym. Język polski to nie tylko lektura, ale też rozumienie tekstu, instrukcji, regulaminu, reklamacji i wypowiedzi. Matematyka to nie tylko zadania, ale koszt, proporcja, miara, marża, budżet i czas. Informatyka i technologia to nie tylko obsługa narzędzi, ale krytyczne korzystanie z informacji, AI i danych.</p>
+          </div>
+
+          <div class="principle">
+            <h3>Informacja zwrotna ma uczyć poprawy, nie tylko klasyfikować</h3>
+            <p>Ocena jest potrzebna, ale sama ocena często nie mówi uczniowi, co ma zrobić dalej. Badania Hattiego i Timperley wskazują, że użyteczna informacja zwrotna odpowiada na trzy pytania: do czego zmierzam, jak mi idzie i jaki jest następny krok. W szkole zawodowej ten sposób myślenia jest szczególnie bliski praktyce mistrzowskiej: uczeń wykonuje zadanie, otrzymuje korektę, poprawia, próbuje ponownie i stopniowo zbliża się do standardu.</p>
+          </div>
+
+          <div class="source-note">Podstawa źródłowa: Hattie i Timperley, feedback, DOI: <a href="https://doi.org/10.3102/003465430298487">10.3102/003465430298487</a>; Wisniewski, Zierer i Hattie, meta-analiza feedbacku, DOI: <a href="https://doi.org/10.3389/fpsyg.2019.03087">10.3389/fpsyg.2019.03087</a>; Roorda i in., DOI: <a href="https://doi.org/10.3102/0034654311421793">10.3102/0034654311421793</a>.</div>
+        </section>
+
+        <section id="model" aria-labelledby="model-title">
+          <h2 id="model-title">4. Model pracy: od obecności do odpowiedzialności</h2>
+          <p class="intro">Model rozwoju kształcenia w ZSZ5 można opisać jako drogę ucznia od obecności w szkole do odpowiedzialnego działania w pracy i dorosłym życiu. Nie chodzi tylko o to, aby uczeń „przeszedł przez szkołę”. Chodzi o to, aby szkoła miała wpływ na sposób, w jaki uczeń podejmuje zadania, reaguje na trudność i buduje własną przyszłość.</p>
+
+          <h3>Etap pierwszy: obecność i wejście w rytm pracy</h3>
+          <p>Bez obecności nie ma procesu. Frekwencja, punktualność i udział w praktykach powinny być traktowane jako podstawowy element kultury pracy. Uczeń powinien rozumieć, że nieobecność w szkole i na praktyce nie jest wyłącznie sprawą formalną. Jest informacją o jego gotowości do pracy, odpowiedzialności i relacji z innymi. Dlatego szkoła powinna szybko reagować na absencję: nie tylko administracyjnie, ale wychowawczo i wspierająco.</p>
+
+          <h3>Etap drugi: koncentracja i domykanie zadań</h3>
+          <p>Uczeń potrzebuje doświadczenia, że potrafi rozpocząć zadanie, utrzymać uwagę i doprowadzić pracę do końca. To wymaga konkretnych rytuałów lekcji: jasnego celu, krótkiej instrukcji, kryterium wykonania, czasu na pracę, sprawdzenia efektu i informacji zwrotnej. W szkole zawodowej taki rytm jest bliski organizacji pracy na stanowisku: wiadomo, co ma powstać, w jakim czasie, według jakiego standardu i jak będzie oceniona jakość.</p>
+
+          <h3>Etap trzeci: kompetencje fundamentalne w zadaniach zawodowych</h3>
+          <p>Czytanie, pisanie, liczenie i korzystanie z technologii nie powinny być zamknięte w przedmiotach ogólnych. One są warunkiem dobrego fachu. Uczeń ma rozumieć instrukcję, recepturę, regulamin, ofertę, umowę, cennik, reklamację i komunikat od pracodawcy. Ma policzyć koszt, czas, proporcję, wynagrodzenie, rabat, marżę lub materiał. Ma umieć użyć internetu i AI tak, aby zwiększyć jakość pracy, a nie stracić krytycyzm.</p>
+
+          <h3>Etap czwarty: praktyka i informacja od świata pracy</h3>
+          <p>Pracodawca widzi ucznia w sytuacjach, których szkoła nie zawsze widzi: punktualność, kontakt z klientem, przyjmowanie poleceń, samodzielność, kultura osobista, bezpieczeństwo i reakcja na korektę. ZSZ5 powinien budować prosty i regularny system powrotu tych informacji do szkoły. Nie po to, aby karać ucznia dodatkowymi raportami, ale po to, aby wychowawca, nauczyciel i specjalista mieli pełniejszy obraz rozwoju ucznia.</p>
+
+          <h3>Etap piąty: sprawczość i dalsza ścieżka</h3>
+          <p>Ostatecznie szkoła ma prowadzić ucznia do przekonania: moje decyzje mają znaczenie, mój wysiłek może zmienić sytuację, mogę poprawić pracę, mogę poprosić o pomoc, mogę nauczyć się kolejnego kroku. To nie jest miękka deklaracja. To praktyczna kompetencja dorosłości. Bez niej absolwent łatwo rezygnuje po pierwszej trudności, konflikcie, porażce egzaminacyjnej albo zmianie na rynku pracy.</p>
+
+          <div class="source-note">Podstawa źródłowa: Donker i in., strategie uczenia się, DOI: <a href="https://doi.org/10.1016/j.edurev.2013.11.002">10.1016/j.edurev.2013.11.002</a>; Bandura, self-efficacy, DOI: <a href="https://doi.org/10.1037/0033-295X.84.2.191">10.1037/0033-295X.84.2.191</a>; MEN, <a href="https://reforma26.men.gov.pl/o-reformie/">Reforma 26</a>.</div>
+        </section>
+
+        <section id="cel" aria-labelledby="cel-title">
+          <h2 id="cel-title">5. Cel szkoły poza oczywistymi obowiązkami prawa</h2>
+          <p class="intro">Szkoła ma obowiązki wynikające z przepisów: realizację podstaw programowych, klasyfikowanie, przeprowadzanie egzaminów, zapewnienie bezpieczeństwa i organizację pomocy. Ale koncepcja rozwoju szkoły powinna odpowiedzieć głębiej: jakiego człowieka chcemy wypuścić i jak rozumiemy sens naszej codziennej pracy.</p>
+
+          <div class="quote">Celem ZSZ5 jest przygotowanie ucznia do odpowiedzialnej pracy, dalszego rozwoju i samodzielnego życia przez zdobycie zawodu, kompetencji fundamentalnych, sprawczości, kultury pracy i umiejętności funkcjonowania w relacjach, technologii oraz społeczności.</div>
+
+          <p>Ten cel łączy cztery porządki. Pierwszy to porządek zawodowy: uczeń ma zdobyć kwalifikacje i rozumieć standard swojego fachu. Drugi to porządek edukacyjny: ma czytać, liczyć, komunikować się, korzystać z technologii i uczyć się dalej. Trzeci to porządek wychowawczy: ma brać odpowiedzialność za obecność, punktualność, relacje, błędy i decyzje. Czwarty to porządek społeczny: ma umieć żyć wśród ludzi, współpracować, odróżniać informację od manipulacji, znać podstawy prawa pracy, finansów, zdrowia i bezpieczeństwa.</p>
+
+          <p>W tym sensie ZSZ5 nie jest wyłącznie miejscem przygotowania do egzaminu zawodowego. Jest miejscem przejścia z roli ucznia do roli młodego pracownika i dorosłego człowieka. Egzamin, frekwencja i wyniki są ważne, ale nie wyczerpują sensu szkoły. Prawdziwy efekt widać wtedy, gdy absolwent potrafi podjąć pracę, uczyć się dalej, poprawiać swoje błędy, rozmawiać z pracodawcą, korzystać z pomocy i nie wycofywać się przy pierwszej trudności.</p>
+
+          <div class="source-note">Podstawa źródłowa: IBE, <a href="https://ibe.edu.pl/pl/profil-absolwenta-i-absolwentki">Profil absolwenta i absolwentki</a>; MEN, <a href="https://reforma26.men.gov.pl/o-reformie/">Reforma 26</a>; MEN/OECD, <a href="https://www.gov.pl/web/edukacja/zintegrowana-strategia-umiejetnosci-2030--przeglad-srodokresowy-oecd-i-dialog-interesariuszy">Zintegrowana Strategia Umiejętności 2030</a>.</div>
+        </section>
+
+        <section id="absolwent" aria-labelledby="absolwent-title">
+          <h2 id="absolwent-title">6. Profil absolwenta ZSZ5</h2>
+          <p class="intro">Profil absolwenta powinien być napisany językiem efektu. Nie opisuje on działań szkoły, ale człowieka, do którego prowadzą działania szkoły.</p>
+
+          <h3>Absolwent zna swój fach i rozumie standard pracy</h3>
+          <p>Nie chodzi tylko o wykonanie pojedynczej czynności zawodowej. Absolwent rozumie, że fach obejmuje jakość, bezpieczeństwo, terminowość, estetykę, odpowiedzialność za narzędzia, komunikację i gotowość do uczenia się nowych rozwiązań. Wie, że standard pracy nie jest wymysłem nauczyciela, lecz językiem rynku, klienta i pracodawcy.</p>
+
+          <h3>Absolwent potrafi uczyć się dalej</h3>
+          <p>Rynek pracy będzie się zmieniał. Raport World Economic Forum wskazuje rosnące znaczenie myślenia analitycznego, odporności, elastyczności, kompetencji technologicznych i uczenia się przez całe życie. Absolwent ZSZ5 powinien więc wyjść ze szkoły nie tylko z tym, czego nauczył się teraz, ale z nawykiem poprawy i aktualizacji własnych umiejętności.</p>
+
+          <h3>Absolwent umie pracować z informacją</h3>
+          <p>W dorosłym życiu uczeń będzie spotykał instrukcje, umowy, regulaminy, cenniki, formularze, treści internetowe, komunikaty urzędowe i materiały generowane przez AI. Dlatego powinien umieć czytać ze zrozumieniem, zadawać pytania, sprawdzać wiarygodność źródła i nie mylić łatwo dostępnej odpowiedzi z dobrze uzasadnioną wiedzą.</p>
+
+          <h3>Absolwent umie przyjąć korektę i poprawić pracę</h3>
+          <p>Dorosłość zawodowa nie polega na braku błędów. Polega na tym, że człowiek potrafi usłyszeć informację zwrotną, odróżnić krytykę pracy od ataku na siebie, poprawić efekt i wrócić do zadania. Szkoła powinna ćwiczyć tę postawę codziennie: przez poprawę, drugą próbę, portfolio, rozmowę o postępie i jasne kryteria.</p>
+
+          <h3>Absolwent rozumie odpowiedzialność społeczną</h3>
+          <p>Praca nie odbywa się w próżni. Absolwent funkcjonuje w zespole, rodzinie, społeczności lokalnej, państwie i przestrzeni cyfrowej. Powinien znać podstawowe prawa i obowiązki pracownika, rozumieć znaczenie zdrowia, bezpieczeństwa, komunikacji, finansów osobistych i decyzji obywatelskich. Szkoła zawodowa ma prawo mówić o tych sprawach wprost, ponieważ przygotowuje do realnego życia, a nie tylko do kolejnego etapu edukacji.</p>
+
+          <div class="source-note">Podstawa źródłowa: WEF, <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/">Future of Jobs Report 2025</a>; IBE, <a href="https://ibe.edu.pl/pl/profil-absolwenta-i-absolwentki">Profil absolwenta i absolwentki</a>.</div>
+        </section>
+
+        <section id="mierniki" aria-labelledby="mierniki-title">
+          <h2 id="mierniki-title">7. Jak sprawdzać, czy filozofia działa</h2>
+          <p class="intro">Filozofia szkoły nie może pozostać tekstem na stronie. Musi dać się przełożyć na obserwowalne zmiany w pracy uczniów, nauczycieli i szkoły jako organizacji.</p>
+
+          <p>Najprostszy system sprawdzania powinien obejmować kilka stałych obszarów. Pierwszym jest obecność: frekwencja, spóźnienia, absencja na praktykach, powroty po kryzysach i skuteczność reakcji wychowawcy. Drugim są kwalifikacje: wyniki egzaminów zawodowych, matury, klasyfikacji i ukończenia szkoły. Trzecim są kompetencje fundamentalne: czytanie instrukcji, matematyka praktyczna, komunikacja i korzystanie z technologii. Czwartym jest kultura pracy widziana przez pracodawców: punktualność, BHP, komunikacja, jakość zadań i gotowość do nauki. Piątym jest sprawczość: poprawianie pracy, kończenie projektów, korzystanie z informacji zwrotnej i planowanie dalszej ścieżki.</p>
+
+          <p>Takie mierniki nie powinny służyć tworzeniu biurokracji. Ich zadaniem jest dać szkole wspólny język rozmowy. Jeżeli mówimy, że chcemy uczyć odpowiedzialności, musimy wiedzieć, gdzie ją obserwujemy. Jeżeli mówimy, że chcemy wzmacniać koncentrację, musimy ustalić, jak wygląda lekcja, na której rzeczywiście ćwiczy się skupioną pracę. Jeżeli mówimy, że pracodawca jest partnerem, musimy regularnie pytać go o konkretne zachowania ucznia, a nie tylko o formalne odbycie praktyki.</p>
+
+          <div class="callout">
+            <strong>Najważniejsze pytanie ewaluacyjne</strong>
+            Czy uczeń po roku pracy w ZSZ5 jest bardziej obecny, bardziej odpowiedzialny, bardziej samodzielny, bliższy standardowi zawodowemu i lepiej przygotowany do dalszego kroku niż na początku roku?
+          </div>
+        </section>
+
+        <section id="zrodla" class="sources" aria-labelledby="zrodla-title">
+          <h2 id="zrodla-title">8. Źródła i podstawa merytoryczna</h2>
+          <p class="intro">Poniższe źródła nie są ozdobą dokumentu. Każde z nich wspiera konkretny element filozofii: sens uczenia, sprawczość, relację, feedback, koncentrację, praktykę, kompetencje przyszłości albo oficjalny kierunek zmian edukacyjnych.</p>
+
+          <ul class="source-list">
+            <li><a href="https://www.szkolamistrzow.info/poznaj-nas">szkolamistrzow.info</a> - podstawowe publiczne źródło oferty ZSZ5 i listy kierunków kształcenia.</li>
+            <li><a href="https://www.szkolamistrzow.info/mlodociani">Szkoła Mistrzów: pracownicy młodociani</a> - kontekst systemu dualnego, praktycznej nauki zawodu oraz praw i obowiązków ucznia w relacji z pracodawcą.</li>
+            <li><a href="https://zsz5.edupage.org/a/pomoc-psychologiczno-pedagogiczna">ZSZ5: pomoc psychologiczno-pedagogiczna</a> - publiczna informacja o wsparciu specjalistycznym w szkole.</li>
+            <li><a href="https://reforma26.men.gov.pl/o-reformie/">MEN: Reforma 26</a> - oficjalny kierunek zmian edukacyjnych: sprawczość, dobrostan, praktyczne doświadczenia edukacyjne, krytyczne korzystanie z technologii i przygotowanie do przyszłości.</li>
+            <li><a href="https://ibe.edu.pl/pl/profil-absolwenta-i-absolwentki">IBE: Profil absolwenta i absolwentki</a> - rama myślenia o celach edukacji, kompetencjach fundamentalnych, przekrojowych i sprawczości ucznia.</li>
+            <li><a href="https://www.gov.pl/web/edukacja/zintegrowana-strategia-umiejetnosci-2030--przeglad-srodokresowy-oecd-i-dialog-interesariuszy">MEN/OECD: Zintegrowana Strategia Umiejętności 2030</a> - kontekst uczenia się przez całe życie i współpracy edukacji z rynkiem pracy.</li>
+            <li><a href="https://www.oecd-ilibrary.org/education/students-digital-devices-and-success_9e4c0624-en">OECD: Students, digital devices and success</a> - źródło do diagnozy koncentracji, urządzeń cyfrowych i warunków uczenia się.</li>
+            <li><a href="https://www.unesco.org/gem-report/en/technology">UNESCO GEM Report: Technology in education</a> - źródło do ostrożnego i celowego rozumienia technologii w edukacji.</li>
+            <li><a href="https://doi.org/10.1016/j.cedpsych.2020.101860">Ryan, R. M., Deci, E. L. (2020)</a> - teoria autodeterminacji: znaczenie autonomii, kompetencji i relacji dla motywacji.</li>
+            <li><a href="https://doi.org/10.1037/0033-295X.84.2.191">Bandura, A. (1977)</a> - poczucie własnej skuteczności jako warunek podejmowania wysiłku i wytrwałości.</li>
+            <li><a href="https://doi.org/10.3102/003465430298487">Hattie, J., Timperley, H. (2007)</a> - informacja zwrotna jako narzędzie uczenia się i poprawy pracy.</li>
+            <li><a href="https://doi.org/10.3102/0034654311421793">Roorda, D. L. i in. (2011)</a> - znaczenie relacji nauczyciel-uczeń dla zaangażowania i osiągnięć.</li>
+            <li><a href="https://doi.org/10.1016/j.edurev.2013.11.002">Donker, A. S. i in. (2014)</a> - skuteczność uczenia strategii uczenia się.</li>
+            <li><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/">World Economic Forum: Future of Jobs Report 2025</a> - kontekst zmian kompetencji potrzebnych na rynku pracy.</li>
           </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="mierniki">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Jak sprawdzamy, czy idziemy w dobrą stronę</h2>
-          <p>Koncepcja musi pracować w danych, nie tylko w deklaracjach. Mierzymy efekty tam, gdzie widać obecność, postęp, jakość pracy i gotowość do dorosłości.</p>
-        </div>
-        <div class="metrics">
-          <article class="metric"><h3>Obecność</h3><p>Frekwencja, spóźnienia, absencja na praktykach, powroty po kryzysie.</p></article>
-          <article class="metric"><h3>Kwalifikacje</h3><p>Egzaminy zawodowe, matura, klasyfikacja, ukończenie szkoły.</p></article>
-          <article class="metric"><h3>Kultura pracy</h3><p>Opinie pracodawców o punktualności, BHP, komunikacji i jakości zadań.</p></article>
-          <article class="metric"><h3>Sprawczość</h3><p>Poprawianie prac, kończenie projektów, portfolio i korzystanie z feedbacku.</p></article>
-        </div>
-      </div>
-    </section>
+        </section>
+      </article>
+    </div>
   </main>
 
-  <footer class="sources">
-    <div class="wrap">
-      <div>
-        <h2>Podstawa koncepcji</h2>
-        <p>Wersja robocza oparta na kwerendzie dokumentów szkoły, źródłach oficjalnych i wybranych badaniach edukacyjnych.</p>
-      </div>
-      <div class="source-list" aria-label="Źródła">
-        <a href="https://reforma26.men.gov.pl/o-reformie/">Reforma 26 MEN</a>
-        <a href="https://ibe.edu.pl/pl/profil-absolwenta-i-absolwentki">Profil absolwenta IBE</a>
-        <a href="https://www.oecd-ilibrary.org/education/students-digital-devices-and-success_9e4c0624-en">OECD: Digital devices</a>
-        <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/">WEF Future of Jobs 2025</a>
-        <a href="https://www.szkolamistrzow.info/poznaj-nas">Szkoła Mistrzów</a>
-        <a href="https://zsz5.edupage.org/a/pomoc-psychologiczno-pedagogiczna">Wsparcie ZSZ5</a>
-      </div>
+  <footer class="footer">
+    <div class="footer-inner">
+      Wersja robocza koncepcji opisowej ZSZ5. Strona nie zawiera zdjęć ani elementów promocyjnych; jej celem jest uporządkowanie filozofii pracy szkoły i źródeł, które ją uzasadniają.
     </div>
   </footer>
 </body>
