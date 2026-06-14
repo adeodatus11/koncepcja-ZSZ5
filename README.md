@@ -1,6 +1,14 @@
 # Koncepcja ZSZ5
 
-Repozytorium zawiera roboczą koncepcję wizji Zespołu Szkół Zawodowych nr 5 we Wrocławiu oraz statyczną, tekstową stronę pokazującą filozofię pracy szkoły.
+Repozytorium zawiera roboczą koncepcję rozwoju Zespołu Szkół Zawodowych nr 5 we Wrocławiu oraz statyczną, tekstową stronę opisującą kierunek pracy szkoły.
+
+Robocza lokalizacja lokalna:
+
+```text
+~/Documents/koncepcja-ZSZ5
+```
+
+Projekt jest prowadzony jako osobne repozytorium, niezależnie od folderu `program-szkoleniowy-nauczyciele`.
 
 ## Strona
 
@@ -18,8 +26,9 @@ Tych ustawień nie da się zapisać w plikach repozytorium. Wymagają uprawnień
 
 ## Zawartość
 
-- `index.html` - tekstowa strona główna z filozofią szkoły, opisami i źródłami.
-- `assets/szkola-mistrzow-logo.png` - logotyp użyty w nagłówku strony.
+- `index.html` - tekstowa strona główna z koncepcją rozwoju szkoły, opisami i źródłami.
+- `assets/orzel-szkola-mistrzow.png` - aktualny szeroki logotyp użyty w nagłówku strony.
+- `assets/szkola-mistrzow-logo.png` - poprzedni logotyp zachowany jako plik pomocniczy, nieużywany na stronie.
 - `md/04_audyt_prawdziwosci_i_rejestr_ryzyk.md` - audyt prawdziwości opracowań.
 - `md/05_katalog_zrodel_naukowych.md` - katalog źródeł naukowych.
 - `md/06_koncepcja_wizji_szkoly_zsz5.md` - spójny dokument koncepcji wizji szkoły.

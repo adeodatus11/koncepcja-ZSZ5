@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Filozofia pracy ZSZ5 | Szkoła Mistrzów</title>
-  <meta name="description" content="Opisowa koncepcja filozofii pracy ZSZ5: diagnoza ucznia, wymagania, wsparcie, praktyka, kompetencje i cel szkoły.">
+  <title>Koncepcja rozwoju ZSZ5 | Szkoła Mistrzów</title>
+  <meta name="description" content="Opisowa koncepcja rozwoju ZSZ5: diagnoza ucznia, wymagania, wsparcie, praktyka, kompetencje i cel szkoły.">
   <style>
     :root {
       --ink: #16202a;
@@ -93,11 +93,13 @@
       text-decoration: none;
       font-weight: 850;
       line-height: 1.15;
+      min-width: 0;
     }
 
     .brand img {
-      width: 44px;
-      height: 44px;
+      width: clamp(148px, 18vw, 218px);
+      height: auto;
+      max-height: 48px;
       object-fit: contain;
       flex: 0 0 auto;
     }
@@ -109,6 +111,7 @@
       color: var(--ink);
       font-size: 16px;
       font-weight: 850;
+      min-width: 0;
     }
 
     .brand-subtitle {
@@ -448,20 +451,39 @@
       .nav {
         min-height: auto;
         padding: 12px 0;
-        align-items: flex-start;
+        align-items: stretch;
         flex-direction: column;
+        gap: 10px;
+      }
+
+      .brand {
+        gap: 10px;
       }
 
       .brand img {
-        width: 40px;
-        height: 40px;
+        width: min(176px, 52vw);
+        max-height: 38px;
+      }
+
+      .brand-text {
+        font-size: 15px;
+      }
+
+      .brand-subtitle {
+        display: none;
       }
 
       .links {
         justify-content: flex-start;
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 4px;
+        -webkit-overflow-scrolling: touch;
       }
 
       .links a {
+        flex: 0 0 auto;
         padding: 7px 8px;
         font-size: 13px;
       }
@@ -493,9 +515,9 @@
   <header class="topbar">
     <nav class="nav" aria-label="Nawigacja główna">
       <a class="brand" href="#start">
-        <img src="assets/szkola-mistrzow-logo.png" alt="Logo Szkoły Mistrzów">
+        <img src="assets/orzel-szkola-mistrzow.png" alt="Logo ZSZ5 i Szkoły Mistrzów">
         <span class="brand-text">
-          Filozofia pracy ZSZ5
+          Koncepcja rozwoju ZSZ5
           <span class="brand-subtitle">Szkoła Mistrzów, zawód i dorosłość</span>
         </span>
       </a>
@@ -530,7 +552,7 @@
         <strong>Spis treści</strong>
         <a href="#diagnoza">1. Diagnoza ucznia</a>
         <a href="#punkt-wyjscia">2. Punkt wyjścia ZSZ5</a>
-        <a href="#zasady">3. Zasady filozofii</a>
+        <a href="#zasady">3. Zasady koncepcji</a>
         <a href="#model">4. Model pracy</a>
         <a href="#cel">5. Cel szkoły</a>
         <a href="#absolwent">6. Profil absolwenta</a>
@@ -586,8 +608,8 @@
         </section>
 
         <section id="zasady" aria-labelledby="zasady-title">
-          <h2 id="zasady-title">3. Zasady filozofii pracy szkoły</h2>
-          <p class="intro">Filozofia szkoły nie może być zestawem ładnych haseł, których nikt nie ma siły wdrażać. Ma pomagać nauczycielowi w codziennej decyzji: co robię, kiedy uczeń nie uważa, nie pracuje, wycofuje się, kwestionuje sens zadania albo wraca z trudnością po raz kolejny.</p>
+          <h2 id="zasady-title">3. Zasady koncepcji pracy szkoły</h2>
+          <p class="intro">Koncepcja szkoły nie może być zestawem ładnych haseł, których nikt nie ma siły wdrażać. Ma pomagać nauczycielowi w codziennej decyzji: co robię, kiedy uczeń nie uważa, nie pracuje, wycofuje się, kwestionuje sens zadania albo wraca z trudnością po raz kolejny.</p>
 
           <div class="definition">
             <p>ZSZ5 nie rezygnuje ze standardu, ale porządkuje drogę dojścia: jasne wymagania, krótsze etapy pracy, praktyka u pracodawców, konkretna informacja zwrotna, wsparcie specjalistyczne i wspólne zasady odpowiedzialności.</p>
@@ -670,7 +692,7 @@
           <div class="source-note">Podstawa prawna, według publikacji ELI wraz z późniejszymi zmianami: Prawo oświatowe, zwłaszcza art. 1, art. 26, art. 27, art. 98 i art. 109 (<a href="https://eli.gov.pl/eli/DU/2017/59/ogl">ELI DU 2017 poz. 59</a>); rozporządzenie w sprawie oceniania, klasyfikowania i promowania uczniów (<a href="https://eli.gov.pl/eli/DU/2019/373/ogl">ELI DU 2019 poz. 373</a>); rozporządzenie w sprawie praktycznej nauki zawodu (<a href="https://eli.gov.pl/eli/DU/2019/391/ogl">ELI DU 2019 poz. 391</a>); rozporządzenie w sprawie pomocy psychologiczno-pedagogicznej (<a href="https://eli.gov.pl/eli/DU/2017/1591/ogl">ELI DU 2017 poz. 1591</a>); rozporządzenie w sprawie bezpieczeństwa i higieny w szkołach (<a href="https://eli.gov.pl/eli/DU/2003/69/ogl">ELI DU 2003 poz. 69</a>); rozporządzenie w sprawie doradztwa zawodowego (<a href="https://eli.gov.pl/eli/DU/2019/325/ogl">ELI DU 2019 poz. 325</a>); rozporządzenie w sprawie ramowych planów nauczania dla publicznych szkół (<a href="https://eli.gov.pl/eli/DU/2024/781/ogl">ELI DU 2024 poz. 781</a>); rozporządzenie w sprawie podstaw programowych kształcenia w zawodach szkolnictwa branżowego (<a href="https://eli.gov.pl/eli/DU/2019/991/ogl">ELI DU 2019 poz. 991</a>).</div>
 
           <h3>Co ZSZ5 dopowiada jako własną misję</h3>
-          <p>Własna misja ZSZ5 zaczyna się tam, gdzie obowiązek prawny trzeba przełożyć na codzienną organizację pracy. Przepisy mówią, że szkoła ma realizować kształcenie, wychowanie, opiekę, profilaktykę, pomoc psychologiczno-pedagogiczną, doradztwo zawodowe, ocenianie, praktyczną naukę zawodu i bezpieczeństwo. Filozofia szkoły odpowiada na pytanie: jak robić to w tej konkretnej placówce tak, żeby nauczyciel wiedział, do czego dążymy, a uczeń widział spójny standard.</p>
+          <p>Własna misja ZSZ5 zaczyna się tam, gdzie obowiązek prawny trzeba przełożyć na codzienną organizację pracy. Przepisy mówią, że szkoła ma realizować kształcenie, wychowanie, opiekę, profilaktykę, pomoc psychologiczno-pedagogiczną, doradztwo zawodowe, ocenianie, praktyczną naukę zawodu i bezpieczeństwo. Koncepcja szkoły odpowiada na pytanie: jak robić to w tej konkretnej placówce tak, żeby nauczyciel wiedział, do czego dążymy, a uczeń widział spójny standard.</p>
 
           <div class="quote">Celem ZSZ5 jest przygotowanie ucznia do odpowiedzialnej pracy, dalszego rozwoju i samodzielnego życia. Szkoła robi to przez zawód, kompetencje podstawowe, kulturę pracy, jasne wymagania, wsparcie z granicami i stopniowe uczenie odpowiedzialności.</div>
 
@@ -752,7 +774,7 @@
 
   <footer class="footer">
     <div class="footer-inner">
-      Wersja robocza koncepcji opisowej ZSZ5. Strona nie zawiera zdjęć ani elementów promocyjnych; jej celem jest uporządkowanie filozofii pracy szkoły i źródeł, które ją uzasadniają.
+      Wersja robocza koncepcji rozwoju ZSZ5. Strona nie zawiera zdjęć ani elementów promocyjnych; jej celem jest uporządkowanie kierunku pracy szkoły i źródeł, które go uzasadniają.
     </div>
   </footer>
   <script>
