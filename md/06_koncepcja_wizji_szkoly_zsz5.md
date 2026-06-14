@@ -213,6 +213,28 @@ Proponowane źródła danych:
 
 ## D. Jaki jest nasz cel jako szkoły
 
+### Najpierw: obowiązki wynikające z przepisów
+
+Cel szkoły nie powinien być opisywany tak, jakby prawo było tylko tłem. W przypadku publicznej szkoły zawodowej przepisy wyznaczają konkretny zakres odpowiedzialności, który trzeba nazwać wprost. Dopiero na nim można budować własną filozofię pracy ZSZ5.
+
+Po pierwsze, szkoła ma zapewniać uczniowi kształcenie, wychowanie i opiekę odpowiednie do wieku oraz rozwoju. Prawo oświatowe wskazuje również wspomaganie wychowawczej roli rodziny, wspieranie rozwoju ucznia ku dojrzałości fizycznej, emocjonalnej, intelektualnej, duchowej i społecznej oraz działania profilaktyczne. Oznacza to, że szkoła nie odpowiada wyłącznie za lekcje i egzaminy, lecz także za tworzenie warunków rozwoju i za pracę wychowawczo-profilaktyczną.
+
+Po drugie, szkoła ma dostosowywać treści, metody i organizację nauczania do możliwości psychofizycznych uczniów oraz zapewniać możliwość korzystania z pomocy psychologiczno-pedagogicznej i specjalnych form pracy dydaktycznej. W praktyce ZSZ5 oznacza to systemowe rozpoznawanie potrzeb uczniów, pracę specjalistów, ale także codzienne decyzje nauczycieli dotyczące sposobu prowadzenia lekcji, instrukcji, informacji zwrotnej, wymagań i wsparcia.
+
+Po trzecie, szkoła ma zapewniać bezpieczne i higieniczne warunki nauki, wychowania i opieki. W szkole zawodowej ten obowiązek obejmuje nie tylko ogólne bezpieczeństwo w budynku, lecz także kulturę BHP, przygotowanie do odpowiedzialnej pracy z narzędziami, reagowanie na zagrożenia oraz przenoszenie zasad bezpieczeństwa na praktyczną naukę zawodu.
+
+Po czwarte, szkoła zawodowa ma realizować kształcenie ogólne i zawodowe zgodnie z podstawami programowymi, ramowymi planami nauczania i przepisami o praktycznej nauce zawodu. Prawo oświatowe traktuje obowiązkowe zajęcia edukacyjne z zakresu kształcenia ogólnego i zawodowego, w tym praktyczną naukę zawodu, jako podstawową formę działalności dydaktyczno-wychowawczej szkoły. Praktyczna nauka zawodu ma służyć opanowaniu umiejętności potrzebnych do podjęcia pracy, a w przypadku zajęć u pracodawców również zastosowaniu i pogłębianiu wiedzy w rzeczywistych warunkach pracy.
+
+Po piąte, szkoła ma prowadzić ocenianie, klasyfikowanie i promowanie uczniów zgodnie z przepisami. Ocenianie bieżące nie jest tylko wystawianiem stopni. Ma monitorować pracę ucznia i przekazywać mu informację pomagającą w uczeniu się: co robi dobrze, co i jak wymaga poprawy oraz jak powinien dalej się uczyć. To bezpośrednio łączy obowiązek prawny z modelem pracy opartym na kryteriach, korekcie i drugiej próbie.
+
+Po szóste, szkoła ma realizować program wychowawczo-profilaktyczny przygotowany na podstawie diagnozy potrzeb i problemów społeczności szkolnej. Program ten obejmuje działania wychowawcze wobec uczniów oraz działania profilaktyczne skierowane do uczniów, nauczycieli i rodziców. Z tego wynika, że diagnoza dzisiejszej młodzieży nie jest elementem publicystycznym, lecz warunkiem dobrze zaplanowanej pracy szkoły.
+
+Po siódme, szkoła ma prowadzić doradztwo zawodowe. W szkole branżowej i technikum jest to szczególnie ważne, ponieważ wybór szkoły oznacza wejście w konkretną ścieżkę zawodu, praktyk, relacji z pracodawcą i dalszego rozwoju. Doradztwo powinno pomagać uczniowi rozumieć siebie, rynek pracy, wymagania zawodu i możliwe drogi po ukończeniu szkoły.
+
+Po ósme, statut szkoły ma określać cele i zadania szkoły oraz sposób ich wykonywania, w tym pomoc psychologiczno-pedagogiczną, opiekę nad uczniami z niepełnosprawnościami, bezpieczeństwo, promocję i ochronę zdrowia, ocenianie wewnątrzszkolne, zawody, w których szkoła kształci, organizację praktycznej nauki zawodu, pracownie, zajęcia zawodowe, dodatkowe działania zwiększające szanse zatrudnienia oraz organizację kształcenia ogólnego i zawodowego pracowników młodocianych. Ten katalog pokazuje, że zawód, wsparcie, bezpieczeństwo i wychowanie muszą być opisane jako system szkoły, a nie jako suma osobnych inicjatyw.
+
+**Podstawa prawna, według publikacji ELI wraz z późniejszymi zmianami:** Prawo oświatowe, zwłaszcza art. 1, art. 26, art. 27, art. 98 i art. 109: https://eli.gov.pl/eli/DU/2017/59/ogl; rozporządzenie w sprawie oceniania, klasyfikowania i promowania uczniów: https://eli.gov.pl/eli/DU/2019/373/ogl; rozporządzenie w sprawie praktycznej nauki zawodu: https://eli.gov.pl/eli/DU/2019/391/ogl; rozporządzenie w sprawie pomocy psychologiczno-pedagogicznej: https://eli.gov.pl/eli/DU/2017/1591/ogl; rozporządzenie w sprawie bezpieczeństwa i higieny w szkołach: https://eli.gov.pl/eli/DU/2003/69/ogl; rozporządzenie w sprawie doradztwa zawodowego: https://eli.gov.pl/eli/DU/2019/325/ogl; rozporządzenie w sprawie ramowych planów nauczania dla publicznych szkół: https://eli.gov.pl/eli/DU/2024/781/ogl; rozporządzenie w sprawie podstaw programowych kształcenia w zawodach szkolnictwa branżowego: https://eli.gov.pl/eli/DU/2019/991/ogl.
+
 ### Cel nadrzędny
 
 Celem ZSZ5 jest przygotowanie ucznia do odpowiedzialnej pracy, dalszego rozwoju i samodzielnego życia przez zdobycie zawodu, rozwój kompetencji fundamentalnych i przekrojowych, budowanie sprawczości oraz uczenie odpowiedzialnego funkcjonowania w relacjach, technologii i społeczności.
@@ -293,6 +315,14 @@ Absolwent ZSZ5:
 
 ## Źródła podstawowe
 
+- Prawo oświatowe, ELI DU 2017 poz. 59: https://eli.gov.pl/eli/DU/2017/59/ogl
+- Rozporządzenie w sprawie oceniania, klasyfikowania i promowania uczniów, ELI DU 2019 poz. 373: https://eli.gov.pl/eli/DU/2019/373/ogl
+- Rozporządzenie w sprawie praktycznej nauki zawodu, ELI DU 2019 poz. 391: https://eli.gov.pl/eli/DU/2019/391/ogl
+- Rozporządzenie w sprawie pomocy psychologiczno-pedagogicznej, ELI DU 2017 poz. 1591: https://eli.gov.pl/eli/DU/2017/1591/ogl
+- Rozporządzenie w sprawie bezpieczeństwa i higieny w szkołach, ELI DU 2003 poz. 69: https://eli.gov.pl/eli/DU/2003/69/ogl
+- Rozporządzenie w sprawie doradztwa zawodowego, ELI DU 2019 poz. 325: https://eli.gov.pl/eli/DU/2019/325/ogl
+- Rozporządzenie w sprawie ramowych planów nauczania dla publicznych szkół, ELI DU 2024 poz. 781: https://eli.gov.pl/eli/DU/2024/781/ogl
+- Rozporządzenie w sprawie podstaw programowych kształcenia w zawodach szkolnictwa branżowego, ELI DU 2019 poz. 991: https://eli.gov.pl/eli/DU/2019/991/ogl
 - MEN, Reforma 26: https://reforma26.men.gov.pl/o-reformie/
 - IBE PIB, Profil absolwenta i absolwentki: https://ibe.edu.pl/pl/profil-absolwenta-i-absolwentki
 - MEN/OECD, Zintegrowana Strategia Umiejętności 2030: https://www.gov.pl/web/edukacja/zintegrowana-strategia-umiejetnosci-2030--przeglad-srodokresowy-oecd-i-dialog-interesariuszy
