@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filozofia ZSZ5 | Szkoła Mistrzów</title>
+  <meta name="description" content="Filozofia pracy ZSZ5: zawód, wymagania, wsparcie, koncentracja, praktyka i przygotowanie do dorosłości.">
+  <style>
+    :root {
+      --ink: #17212b;
+      --muted: #5f6b76;
+      --line: #d9e0e6;
+      --paper: #ffffff;
+      --soft: #f4f7f8;
+      --green: #1d5a4a;
+      --green-2: #2e7a63;
+      --amber: #d8992c;
+      --brick: #9a4638;
+      --blue: #274c77;
+      --shadow: 0 18px 50px rgba(23, 33, 43, .16);
+      --radius: 8px;
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .topbar {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 50;
+      background: rgba(255, 255, 255, .92);
+      border-bottom: 1px solid rgba(217, 224, 230, .85);
+      backdrop-filter: blur(16px);
+    }
+
+    .nav {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 10px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 210px;
+      font-weight: 800;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+    }
+
+    .brand span {
+      display: block;
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      padding: 8px 10px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #344451;
+    }
+
+    .links a:hover,
+    .links a:focus-visible {
+      background: var(--soft);
+      outline: none;
+    }
+
+    .hero {
+      min-height: 86vh;
+      display: grid;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(12, 20, 27, .38) 0%, rgba(12, 20, 27, .62) 58%, rgba(12, 20, 27, .82) 100%),
+        url("assets/zsz5-hero.jpg") center / cover no-repeat;
+      color: white;
+      padding: 104px 22px 56px;
+    }
+
+    .hero-inner {
+      width: min(var(--max), 100%);
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      color: #f3c66a;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 3px;
+      background: #f3c66a;
+      border-radius: 999px;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 920px;
+      font-size: clamp(42px, 7vw, 86px);
+      line-height: .98;
+      letter-spacing: 0;
+    }
+
+    .hero-lead {
+      max-width: 760px;
+      margin: 22px 0 0;
+      font-size: clamp(18px, 2vw, 24px);
+      color: rgba(255, 255, 255, .9);
+    }
+
+    .hero-grid {
+      margin-top: 38px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .hero-item {
+      min-height: 108px;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, .22);
+      background: rgba(255, 255, 255, .1);
+      border-radius: var(--radius);
+      backdrop-filter: blur(12px);
+    }
+
+    .hero-item strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .hero-item span {
+      color: rgba(255, 255, 255, .82);
+      font-size: 14px;
+    }
+
+    section {
+      padding: 72px 22px;
+    }
+
+    .wrap {
+      width: min(var(--max), 100%);
+      margin: 0 auto;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, .85fr) minmax(280px, .45fr);
+      gap: 36px;
+      align-items: end;
+      margin-bottom: 34px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: clamp(30px, 4vw, 50px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .band {
+      background: var(--soft);
+      border-block: 1px solid var(--line);
+    }
+
+    .diagnosis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .tile {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px;
+      min-height: 220px;
+    }
+
+    .tile .num {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #e6f0ed;
+      color: var(--green);
+      font-weight: 900;
+      margin-bottom: 18px;
+    }
+
+    .tile h3,
+    .model-card h3,
+    .metric h3 {
+      margin: 0 0 8px;
+      font-size: 19px;
+      line-height: 1.2;
+    }
+
+    .tile p,
+    .model-card p,
+    .metric p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .state-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .photo-panel {
+      min-height: 460px;
+      background: url("assets/zsz5-workshop.jpg") center / cover no-repeat;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .state-copy {
+      display: grid;
+      gap: 14px;
+    }
+
+    .fact-row {
+      padding: 18px;
+      border-left: 5px solid var(--green);
+      background: var(--paper);
+      border-radius: var(--radius);
+      border-top: 1px solid var(--line);
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .fact-row:nth-child(2) {
+      border-left-color: var(--amber);
+    }
+
+    .fact-row:nth-child(3) {
+      border-left-color: var(--blue);
+    }
+
+    .fact-row:nth-child(4) {
+      border-left-color: var(--brick);
+    }
+
+    .fact-row strong {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 17px;
+    }
+
+    .fact-row span {
+      color: var(--muted);
+    }
+
+    .model {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .model-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 20px;
+      background: var(--paper);
+      min-height: 210px;
+    }
+
+    .model-card .tag {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 5px 8px;
+      border-radius: 5px;
+      background: #eef3f6;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .goal {
+      background: var(--green);
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .goal .section-head p {
+      color: rgba(255, 255, 255, .82);
+    }
+
+    .goal-box {
+      max-width: 980px;
+      padding: 30px;
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .12);
+      border: 1px solid rgba(255, 255, 255, .24);
+    }
+
+    .goal-box p {
+      margin: 0;
+      font-size: clamp(24px, 3vw, 40px);
+      line-height: 1.18;
+      font-weight: 850;
+    }
+
+    .profile {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .profile li {
+      list-style: none;
+      padding: 14px 16px;
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .11);
+      border: 1px solid rgba(255, 255, 255, .18);
+      min-height: 58px;
+    }
+
+    .profile ul {
+      display: contents;
+      margin: 0;
+      padding: 0;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .metric {
+      padding: 18px;
+      border-radius: var(--radius);
+      background: var(--soft);
+      border: 1px solid var(--line);
+      min-height: 170px;
+    }
+
+    .sources {
+      background: #111922;
+      color: white;
+      padding: 38px 22px;
+    }
+
+    .sources .wrap {
+      display: grid;
+      grid-template-columns: .5fr 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .sources h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .sources p {
+      margin: 8px 0 0;
+      color: rgba(255, 255, 255, .72);
+    }
+
+    .source-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .source-list a {
+      padding: 8px 10px;
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: 6px;
+      color: rgba(255, 255, 255, .9);
+      font-size: 13px;
+    }
+
+    .note {
+      margin-top: 22px;
+      padding: 14px 16px;
+      border-radius: var(--radius);
+      background: #fff8e8;
+      border: 1px solid #eed49b;
+      color: #5c4516;
+      font-size: 14px;
+    }
+
+    @media (max-width: 960px) {
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .links {
+        justify-content: flex-start;
+      }
+
+      .hero {
+        min-height: auto;
+        padding-top: 148px;
+      }
+
+      .hero-grid,
+      .diagnosis,
+      .model,
+      .metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .section-head,
+      .state-grid,
+      .sources .wrap {
+        grid-template-columns: 1fr;
+      }
+
+      .photo-panel {
+        min-height: 320px;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .brand {
+        min-width: 0;
+      }
+
+      .links a {
+        padding: 7px 8px;
+        font-size: 13px;
+      }
+
+      .hero {
+        padding: 172px 18px 38px;
+      }
+
+      .hero-grid,
+      .diagnosis,
+      .model,
+      .metrics,
+      .profile {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 54px 18px;
+      }
+
+      .goal-box {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar" aria-label="Nawigacja">
+    <nav class="nav">
+      <a class="brand" href="#start" aria-label="Filozofia ZSZ5">
+        <img src="assets/szkola-mistrzow-logo.png" alt="Logo Szkoły Mistrzów">
+        <strong>ZSZ5 <span>Szkoła Mistrzów</span></strong>
+      </a>
+      <div class="links">
+        <a href="#diagnoza">Diagnoza</a>
+        <a href="#stan">Stan szkoły</a>
+        <a href="#model">Model</a>
+        <a href="#cel">Cel</a>
+        <a href="#mierniki">Mierniki</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="start">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Filozofia pracy ZSZ5</p>
+        <h1>Szkoła blisko zawodu, pracodawcy i ucznia</h1>
+        <p class="hero-lead">Uczymy fachu i dorosłości. Prowadzimy ucznia do standardu pracy przez praktykę, wymagania, wsparcie, informację zwrotną i odpowiedzialność.</p>
+        <div class="hero-grid" aria-label="Główne zasady">
+          <div class="hero-item"><strong>Nie obniżamy wymagań</strong><span>Pokazujemy drogę dojścia do wysokiego standardu.</span></div>
+          <div class="hero-item"><strong>Łączymy szkołę z pracą</strong><span>Praktyka i pracodawca są częścią uczenia się.</span></div>
+          <div class="hero-item"><strong>Ćwiczymy koncentrację</strong><span>Uwaga, higiena cyfrowa i samoregulacja są kompetencjami zawodowymi.</span></div>
+          <div class="hero-item"><strong>Wspieramy do samodzielności</strong><span>Relacja i pomoc mają prowadzić do odpowiedzialności.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="diagnoza" class="band">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Diagnoza ucznia, z którym dziś pracujemy</h2>
+          <p>Nie chodzi o etykietowanie pokolenia. Chodzi o profesjonalne rozpoznanie warunków, w których młody człowiek uczy się zawodu, relacji i dorosłości.</p>
+        </div>
+        <div class="diagnosis">
+          <article class="tile">
+            <div class="num">1</div>
+            <h3>Rozproszona uwaga</h3>
+            <p>Cyfrowe bodźce utrudniają skupienie. W szkole zawodowej koncentracja jest częścią BHP, jakości usługi i odpowiedzialności.</p>
+          </article>
+          <article class="tile">
+            <div class="num">2</div>
+            <h3>Słabszy sens szkoły</h3>
+            <p>Uczeń częściej pyta, po co ma się uczyć. Odpowiadamy praktyką, zadaniami zawodowymi i jasnym związkiem z dorosłością.</p>
+          </article>
+          <article class="tile">
+            <div class="num">3</div>
+            <h3>Potrzeba struktury</h3>
+            <p>Motywacja rośnie, gdy uczeń zna cel, kryteria, swój postęp i następny krok. Samo „dasz radę” nie wystarcza.</p>
+          </article>
+          <article class="tile">
+            <div class="num">4</div>
+            <h3>Wsparcie bez pobłażliwości</h3>
+            <p>Bezpieczeństwo i relacja pomagają przyjąć wymagania. Pomoc ma prowadzić do obecności, pracy i odpowiedzialności.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="stan">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Aktualny punkt wyjścia ZSZ5</h2>
+          <p>Szkoła ma mocny praktyczny fundament: model dualny, markę Szkoły Mistrzów, zawody usługowe, rzemieślnicze i techniczne oraz realną współpracę z pracodawcami.</p>
+        </div>
+        <div class="state-grid">
+          <div class="photo-panel" role="img" aria-label="Uczniowie podczas pracy praktycznej"></div>
+          <div class="state-copy">
+            <div class="fact-row"><strong>Struktura</strong><span>Technikum nr 5, Branżowa Szkoła I stopnia nr 5, Branżowa Szkoła II stopnia nr 5 oraz kwalifikacyjne kursy zawodowe.</span></div>
+            <div class="fact-row"><strong>Kierunki</strong><span>Według szkolamistrzow.info: technik usług fryzjerskich, technik handlowiec oraz zawody branżowe, m.in. fryzjer, cukiernik, kucharz, sprzedawca, blacharz, lakiernik, stolarz, piekarz, elektryk.</span></div>
+            <div class="fact-row"><strong>Model</strong><span>Uczeń szkoły branżowej łączy naukę z praktyką u pracodawcy, a szkoła wspiera kontakt z cechami i zakładami pracy.</span></div>
+            <div class="fact-row"><strong>Wsparcie</strong><span>Szkoła komunikuje dostęp do pedagoga, psychologa, pedagoga specjalnego i konsultanta do spraw uzależnień.</span></div>
+          </div>
+        </div>
+        <div class="note">Źródłem publicznej oferty i kierunków jest szkolamistrzow.info. Dane liczbowe o oddziałach, uczniach, nauczycielach i pracodawcach należy potwierdzić w arkuszu organizacyjnym oraz danych szkoły przed publikacją wersji oficjalnej.</div>
+      </div>
+    </section>
+
+    <section id="model" class="band">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Model rozwoju kształcenia</h2>
+          <p>Każdy filar ma prowadzić do tego samego efektu: uczeń zdobywa fach, ale też uczy się pracować, myśleć, współpracować i odpowiadać za decyzje.</p>
+        </div>
+        <div class="model">
+          <article class="model-card"><span class="tag">Filar 1</span><h3>Fach i kultura pracy</h3><p>Kwalifikacje, egzaminy, BHP, jakość, punktualność, odpowiedzialność za narzędzia, klienta i zespół.</p></article>
+          <article class="model-card"><span class="tag">Filar 2</span><h3>Kompetencje fundamentalne</h3><p>Czytanie instrukcji, matematyka praktyczna, komunikacja, cyfrowa ostrożność i krytyczna analiza informacji.</p></article>
+          <article class="model-card"><span class="tag">Filar 3</span><h3>Koncentracja i samoregulacja</h3><p>Praca w blokach, ograniczanie dystraktorów, planowanie zadania, domykanie pracy i druga próba.</p></article>
+          <article class="model-card"><span class="tag">Filar 4</span><h3>Feedback i wymagania</h3><p>Uczeń zna standard, widzi postęp i dostaje konkretny następny krok zamiast samej oceny.</p></article>
+          <article class="model-card"><span class="tag">Filar 5</span><h3>Relacja i bezpieczeństwo</h3><p>Dorosły widzi ucznia, stawia granice i prowadzi go do odpowiedzialności, a nie wyręcza.</p></article>
+          <article class="model-card"><span class="tag">Filar 6</span><h3>Dorosłe życie</h3><p>Prawo pracy, finanse, zdrowie, profilaktyka, AI, instytucje publiczne i planowanie ścieżki po szkole.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cel" class="goal">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Cel szkoły</h2>
+          <p>Poza oczywistymi obowiązkami wynikającymi z prawa, potrzebujemy wspólnego języka: po czym poznamy, że nasza praca ma sens.</p>
+        </div>
+        <div class="goal-box">
+          <p>Celem ZSZ5 jest przygotowanie ucznia do odpowiedzialnej pracy, dalszego rozwoju i samodzielnego życia przez zdobycie zawodu, kompetencji fundamentalnych, sprawczości i kultury odpowiedzialności.</p>
+        </div>
+        <div class="profile" aria-label="Profil absolwenta">
+          <ul>
+            <li>Ma kwalifikacje i rozumie standard swojego fachu.</li>
+            <li>Pracuje punktualnie, bezpiecznie i odpowiedzialnie.</li>
+            <li>Czyta instrukcje, dokumenty i komunikaty potrzebne w pracy.</li>
+            <li>Używa technologii celowo, krytycznie i bez utraty uwagi.</li>
+            <li>Przyjmuje informację zwrotną i poprawia swoją pracę.</li>
+            <li>Komunikuje się z klientem, pracodawcą i zespołem.</li>
+            <li>Zna podstawy prawa pracy, finansów, zdrowia i bezpieczeństwa.</li>
+            <li>Wie, że wolność łączy się z odpowiedzialnością.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="mierniki">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Jak sprawdzamy, czy idziemy w dobrą stronę</h2>
+          <p>Koncepcja musi pracować w danych, nie tylko w deklaracjach. Mierzymy efekty tam, gdzie widać obecność, postęp, jakość pracy i gotowość do dorosłości.</p>
+        </div>
+        <div class="metrics">
+          <article class="metric"><h3>Obecność</h3><p>Frekwencja, spóźnienia, absencja na praktykach, powroty po kryzysie.</p></article>
+          <article class="metric"><h3>Kwalifikacje</h3><p>Egzaminy zawodowe, matura, klasyfikacja, ukończenie szkoły.</p></article>
+          <article class="metric"><h3>Kultura pracy</h3><p>Opinie pracodawców o punktualności, BHP, komunikacji i jakości zadań.</p></article>
+          <article class="metric"><h3>Sprawczość</h3><p>Poprawianie prac, kończenie projektów, portfolio i korzystanie z feedbacku.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="sources">
+    <div class="wrap">
+      <div>
+        <h2>Podstawa koncepcji</h2>
+        <p>Wersja robocza oparta na kwerendzie dokumentów szkoły, źródłach oficjalnych i wybranych badaniach edukacyjnych.</p>
+      </div>
+      <div class="source-list" aria-label="Źródła">
+        <a href="https://reforma26.men.gov.pl/o-reformie/">Reforma 26 MEN</a>
+        <a href="https://ibe.edu.pl/pl/profil-absolwenta-i-absolwentki">Profil absolwenta IBE</a>
+        <a href="https://www.oecd-ilibrary.org/education/students-digital-devices-and-success_9e4c0624-en">OECD: Digital devices</a>
+        <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/">WEF Future of Jobs 2025</a>
+        <a href="https://www.szkolamistrzow.info/poznaj-nas">Szkoła Mistrzów</a>
+        <a href="https://zsz5.edupage.org/a/pomoc-psychologiczno-pedagogiczna">Wsparcie ZSZ5</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
